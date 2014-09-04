@@ -1,0 +1,1352 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'canvas',
+1 verbose cli   'fabric' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'canvas', null ]
+6 verbose cache add name=undefined spec="canvas" args=["canvas",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'canvas',
+7 verbose parsed url   path: 'canvas',
+7 verbose parsed url   href: 'canvas' }
+8 verbose cache add [ 'fabric', null ]
+9 verbose cache add name=undefined spec="fabric" args=["fabric",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'fabric',
+10 verbose parsed url   path: 'fabric',
+10 verbose parsed url   href: 'fabric' }
+11 silly lockFile 7aa15835-canvas canvas
+12 verbose lock canvas /home/kunal15595/.npm/7aa15835-canvas.lock
+13 silly lockFile 19d3cef9-fabric fabric
+14 verbose lock fabric /home/kunal15595/.npm/19d3cef9-fabric.lock
+15 silly lockFile 19d3cef9-fabric fabric
+16 silly lockFile 19d3cef9-fabric fabric
+17 silly lockFile 7aa15835-canvas canvas
+18 silly lockFile 7aa15835-canvas canvas
+19 verbose addNamed [ 'fabric', '' ]
+20 verbose addNamed [ null, '*' ]
+21 silly lockFile 903685e1-fabric fabric@
+22 verbose lock fabric@ /home/kunal15595/.npm/903685e1-fabric.lock
+23 verbose addNamed [ 'canvas', '' ]
+24 verbose addNamed [ null, '*' ]
+25 silly lockFile 7328b956-canvas canvas@
+26 verbose lock canvas@ /home/kunal15595/.npm/7328b956-canvas.lock
+27 silly addNameRange { name: 'fabric', range: '*', hasData: false }
+28 silly addNameRange { name: 'canvas', range: '*', hasData: false }
+29 verbose url raw fabric
+30 verbose url resolving [ 'https://registry.npmjs.org/', './fabric' ]
+31 verbose url resolved https://registry.npmjs.org/fabric
+32 info trying registry request attempt 1 at 03:20:35
+33 verbose etag "2MAL69MACG6WG7VN51DFR8LVM"
+34 http GET https://registry.npmjs.org/fabric
+35 verbose url raw canvas
+36 verbose url resolving [ 'https://registry.npmjs.org/', './canvas' ]
+37 verbose url resolved https://registry.npmjs.org/canvas
+38 info trying registry request attempt 1 at 03:20:35
+39 verbose etag "BJM1PTO2G6D4QAPHYYZ68LBU7"
+40 http GET https://registry.npmjs.org/canvas
+41 http 304 https://registry.npmjs.org/fabric
+42 silly registry.get cb [ 304,
+42 silly registry.get   { date: 'Mon, 19 May 2014 21:50:37 GMT',
+42 silly registry.get     server: 'Apache',
+42 silly registry.get     via: '1.1 varnish',
+42 silly registry.get     'last-modified': 'Mon, 19 May 2014 21:50:37 GMT',
+42 silly registry.get     'cache-control': 'max-age=1',
+42 silly registry.get     etag: '"2MAL69MACG6WG7VN51DFR8LVM"',
+42 silly registry.get     'x-served-by': 'cache-sv63-SJC3',
+42 silly registry.get     'x-cache': 'MISS',
+42 silly registry.get     'x-cache-hits': '0',
+42 silly registry.get     'x-timer': 'S1400536237.133474350,VS0,VE159',
+42 silly registry.get     vary: 'Accept',
+42 silly registry.get     'content-length': '0',
+42 silly registry.get     'keep-alive': 'timeout=10, max=50',
+42 silly registry.get     connection: 'Keep-Alive' } ]
+43 verbose etag fabric from cache
+44 silly addNameRange number 2 { name: 'fabric', range: '*', hasData: true }
+45 silly addNameRange versions [ 'fabric',
+45 silly addNameRange   [ '0.5.2',
+45 silly addNameRange     '0.5.3',
+45 silly addNameRange     '0.5.5',
+45 silly addNameRange     '0.5.6',
+45 silly addNameRange     '0.5.7',
+45 silly addNameRange     '0.5.10',
+45 silly addNameRange     '0.5.13',
+45 silly addNameRange     '0.6.4',
+45 silly addNameRange     '0.6.6',
+45 silly addNameRange     '0.6.7',
+45 silly addNameRange     '0.6.8',
+45 silly addNameRange     '0.6.12',
+45 silly addNameRange     '0.7.1',
+45 silly addNameRange     '0.7.3',
+45 silly addNameRange     '0.7.4',
+45 silly addNameRange     '0.7.9',
+45 silly addNameRange     '0.7.11',
+45 silly addNameRange     '0.7.13',
+45 silly addNameRange     '0.7.14',
+45 silly addNameRange     '0.7.15',
+45 silly addNameRange     '0.7.16',
+45 silly addNameRange     '0.7.17',
+45 silly addNameRange     '0.7.18',
+45 silly addNameRange     '0.7.22',
+45 silly addNameRange     '0.7.23',
+45 silly addNameRange     '0.7.24',
+45 silly addNameRange     '0.8.0',
+45 silly addNameRange     '0.8.7',
+45 silly addNameRange     '0.8.10',
+45 silly addNameRange     '0.8.11',
+45 silly addNameRange     '0.8.12',
+45 silly addNameRange     '0.8.13',
+45 silly addNameRange     '0.8.19',
+45 silly addNameRange     '0.8.20',
+45 silly addNameRange     '0.8.26',
+45 silly addNameRange     '0.8.34',
+45 silly addNameRange     '0.8.35',
+45 silly addNameRange     '0.8.4',
+45 silly addNameRange     '0.8.42',
+45 silly addNameRange     '0.8.44',
+45 silly addNameRange     '0.8.46',
+45 silly addNameRange     '0.8.47',
+45 silly addNameRange     '0.8.50',
+45 silly addNameRange     '0.8.51',
+45 silly addNameRange     '0.8.52',
+45 silly addNameRange     '0.9.0',
+45 silly addNameRange     '0.9.1',
+45 silly addNameRange     '0.9.2',
+45 silly addNameRange     '0.9.3',
+45 silly addNameRange     '0.9.5',
+45 silly addNameRange     '0.9.7',
+45 silly addNameRange     '0.9.8',
+45 silly addNameRange     '0.9.9',
+45 silly addNameRange     '0.9.10',
+45 silly addNameRange     '0.9.14',
+45 silly addNameRange     '0.9.17',
+45 silly addNameRange     '0.9.19',
+45 silly addNameRange     '0.9.21',
+45 silly addNameRange     '1.0.0',
+45 silly addNameRange     '1.0.1',
+45 silly addNameRange     '1.0.6',
+45 silly addNameRange     '1.0.7',
+45 silly addNameRange     '1.0.8',
+45 silly addNameRange     '1.0.9',
+45 silly addNameRange     '1.1.3',
+45 silly addNameRange     '1.1.4',
+45 silly addNameRange     '1.1.6',
+45 silly addNameRange     '1.1.9',
+45 silly addNameRange     '1.1.11',
+45 silly addNameRange     '1.1.13',
+45 silly addNameRange     '1.1.14',
+45 silly addNameRange     '1.1.16',
+45 silly addNameRange     '1.1.18',
+45 silly addNameRange     '1.1.19',
+45 silly addNameRange     '1.1.20',
+45 silly addNameRange     '1.1.21',
+45 silly addNameRange     '1.2.0',
+45 silly addNameRange     '1.2.1',
+45 silly addNameRange     '1.2.2',
+45 silly addNameRange     '1.2.3',
+45 silly addNameRange     '1.2.4',
+45 silly addNameRange     '1.2.5',
+45 silly addNameRange     '1.2.6',
+45 silly addNameRange     '1.2.9',
+45 silly addNameRange     '1.2.10',
+45 silly addNameRange     '1.2.11',
+45 silly addNameRange     '1.3.1',
+45 silly addNameRange     '1.3.2',
+45 silly addNameRange     '1.3.3',
+45 silly addNameRange     '1.3.4',
+45 silly addNameRange     '1.3.5',
+45 silly addNameRange     '1.3.6',
+45 silly addNameRange     '1.3.7',
+45 silly addNameRange     '1.3.8',
+45 silly addNameRange     '1.3.9',
+45 silly addNameRange     '1.3.12',
+45 silly addNameRange     '1.4.0',
+45 silly addNameRange     '1.4.1',
+45 silly addNameRange     '1.4.2',
+45 silly addNameRange     '1.4.3' ] ]
+46 verbose addNamed [ 'fabric', '1.4.3' ]
+47 verbose addNamed [ '1.4.3', '1.4.3' ]
+48 silly lockFile 79cb7ce3-fabric-1-4-3 fabric@1.4.3
+49 verbose lock fabric@1.4.3 /home/kunal15595/.npm/79cb7ce3-fabric-1-4-3.lock
+50 silly lockFile 79cb7ce3-fabric-1-4-3 fabric@1.4.3
+51 silly lockFile 79cb7ce3-fabric-1-4-3 fabric@1.4.3
+52 silly lockFile 903685e1-fabric fabric@
+53 silly lockFile 903685e1-fabric fabric@
+54 http 304 https://registry.npmjs.org/canvas
+55 silly registry.get cb [ 304,
+55 silly registry.get   { date: 'Mon, 19 May 2014 21:50:42 GMT',
+55 silly registry.get     server: 'Apache',
+55 silly registry.get     via: '1.1 varnish',
+55 silly registry.get     'last-modified': 'Mon, 19 May 2014 21:50:42 GMT',
+55 silly registry.get     'cache-control': 'max-age=1',
+55 silly registry.get     etag: '"BJM1PTO2G6D4QAPHYYZ68LBU7"',
+55 silly registry.get     'x-served-by': 'cache-sv63-SJC3',
+55 silly registry.get     'x-cache': 'MISS',
+55 silly registry.get     'x-cache-hits': '0',
+55 silly registry.get     'x-timer': 'S1400536242.170497656,VS0,VE161',
+55 silly registry.get     vary: 'Accept',
+55 silly registry.get     'content-length': '0',
+55 silly registry.get     'keep-alive': 'timeout=10, max=50',
+55 silly registry.get     connection: 'Keep-Alive' } ]
+56 verbose etag canvas from cache
+57 silly addNameRange number 2 { name: 'canvas', range: '*', hasData: true }
+58 silly addNameRange versions [ 'canvas',
+58 silly addNameRange   [ '0.0.1',
+58 silly addNameRange     '0.0.2',
+58 silly addNameRange     '0.0.3',
+58 silly addNameRange     '0.0.4',
+58 silly addNameRange     '0.0.5',
+58 silly addNameRange     '0.0.6',
+58 silly addNameRange     '0.0.7',
+58 silly addNameRange     '0.0.8',
+58 silly addNameRange     '0.1.0',
+58 silly addNameRange     '0.2.0',
+58 silly addNameRange     '0.2.1',
+58 silly addNameRange     '0.3.0',
+58 silly addNameRange     '0.3.1',
+58 silly addNameRange     '0.3.2',
+58 silly addNameRange     '0.3.3',
+58 silly addNameRange     '0.4.0',
+58 silly addNameRange     '0.4.1',
+58 silly addNameRange     '0.4.2',
+58 silly addNameRange     '0.4.3',
+58 silly addNameRange     '0.5.0',
+58 silly addNameRange     '0.5.1',
+58 silly addNameRange     '0.5.2',
+58 silly addNameRange     '0.5.3',
+58 silly addNameRange     '0.5.4',
+58 silly addNameRange     '0.6.0',
+58 silly addNameRange     '0.7.0',
+58 silly addNameRange     '0.7.1',
+58 silly addNameRange     '0.7.2',
+58 silly addNameRange     '0.7.3',
+58 silly addNameRange     '0.8.0',
+58 silly addNameRange     '0.8.1',
+58 silly addNameRange     '0.8.2',
+58 silly addNameRange     '0.8.3',
+58 silly addNameRange     '0.9.0',
+58 silly addNameRange     '0.10.0',
+58 silly addNameRange     '0.10.1',
+58 silly addNameRange     '0.10.2',
+58 silly addNameRange     '0.10.3',
+58 silly addNameRange     '0.11.0',
+58 silly addNameRange     '0.11.1',
+58 silly addNameRange     '0.11.2',
+58 silly addNameRange     '0.11.3',
+58 silly addNameRange     '0.12.0',
+58 silly addNameRange     '0.12.1',
+58 silly addNameRange     '0.13.0',
+58 silly addNameRange     '0.13.1',
+58 silly addNameRange     '1.0.0',
+58 silly addNameRange     '1.0.1',
+58 silly addNameRange     '1.0.2',
+58 silly addNameRange     '1.0.3',
+58 silly addNameRange     '1.0.4',
+58 silly addNameRange     '1.1.0',
+58 silly addNameRange     '1.1.1',
+58 silly addNameRange     '1.1.2',
+58 silly addNameRange     '1.1.3' ] ]
+59 verbose addNamed [ 'canvas', '1.1.3' ]
+60 verbose addNamed [ '1.1.3', '1.1.3' ]
+61 silly lockFile e6daf825-canvas-1-1-3 canvas@1.1.3
+62 verbose lock canvas@1.1.3 /home/kunal15595/.npm/e6daf825-canvas-1-1-3.lock
+63 silly lockFile e6daf825-canvas-1-1-3 canvas@1.1.3
+64 silly lockFile e6daf825-canvas-1-1-3 canvas@1.1.3
+65 silly lockFile 7328b956-canvas canvas@
+66 silly lockFile 7328b956-canvas canvas@
+67 silly resolved [ { name: 'fabric',
+67 silly resolved     description: 'Object model for HTML5 canvas, and SVG-to-canvas parser. Backed by jsdom and node-canvas.',
+67 silly resolved     version: '1.4.3',
+67 silly resolved     author: { name: 'Juriy Zaytsev', email: 'kangax@gmail.com' },
+67 silly resolved     keywords:
+67 silly resolved      [ 'canvas',
+67 silly resolved        'graphic',
+67 silly resolved        'graphics',
+67 silly resolved        'SVG',
+67 silly resolved        'node-canvas',
+67 silly resolved        'parser',
+67 silly resolved        'HTML5',
+67 silly resolved        'object model' ],
+67 silly resolved     repository: { type: 'git', url: 'git://github.com/kangax/fabric.js' },
+67 silly resolved     licenses: [ [Object] ],
+67 silly resolved     scripts:
+67 silly resolved      { build: 'node build.js modules=ALL exclude=json,cufon,gestures',
+67 silly resolved        test: 'node test.js && jshint src' },
+67 silly resolved     dependencies: { canvas: '1.1.x', jsdom: '0.8.x', xmldom: '0.1.x' },
+67 silly resolved     devDependencies:
+67 silly resolved      { qunit: '0.5.x',
+67 silly resolved        jshint: '2.4.x',
+67 silly resolved        'uglify-js': '2.4.x',
+67 silly resolved        execSync: '0.0.x',
+67 silly resolved        plato: '0.6.x' },
+67 silly resolved     engines: { node: '>=0.4.0 && <1.0.0' },
+67 silly resolved     main: './dist/fabric.js',
+67 silly resolved     readme: '### Fabric\n[![Build Status](https://secure.travis-ci.org/kangax/fabric.js.png?branch=master)](http://travis-ci.org/#!/kangax/fabric.js)\n[![Code Climate](https://codeclimate.com/repos/526a0ed089af7e6cf2001389/badges/d1c922dd1511ffa8a72f/gpa.png)](https://codeclimate.com/repos/526a0ed089af7e6cf2001389/feed)\n[![Coverage Status](https://coveralls.io/repos/kangax/fabric.js/badge.png?branch=master)](https://coveralls.io/r/kangax/fabric.js?branch=master)\n<a href="https://npmjs.org/package/fabric"><img src="https://badge.fury.io/js/fabric.png"></a>\n[![Dependency Status](https://gemnasium.com/kangax/fabric.js.png)](https://gemnasium.com/kangax/fabric.js)\n\n\n**Fabric.js** is a framework that makes it easy to work with HTML5 canvas element. It is an **interactive object model** on top of canvas element. It is also an **SVG-to-canvas parser**.\n\n<a href="http://fabricjs.com/kitchensink/" target="_blank"><img src="https://github.com/kangax/fabric.js/raw/master/lib/screenshot.png" style="width:300px;box-shadow:rgba(0,0,0,0.3) 0 0 5px"></a>\n\nUsing Fabric.js, you can create and populate objects on canvas; objects like simple geometrical shapes — rectangles, circles, ellipses, polygons, or more complex shapes consisting of hundreds or thousands of simple paths. You can then scale, move, and rotate these objects with the mouse; modify their properties — color, transparency, z-index, etc. You can also manipulate these objects altogether — grouping them with a simple mouse selection.\n\n[Contributions](https://github.com/kangax/fabric.js/wiki/Love-Fabric%3F-Help-us-by...) are very much welcome!\n\n### Goals\n\n- Unit tested (2300+ tests at the moment)\n- Modular (~60 small ["classes", modules, mixins](http://fabricjs.com/docs/))\n- Cross-browser\n- [Fast](https://github.com/kangax/fabric.js/wiki/Focus-on-speed)\n- Encapsulated in one object\n- No browser sniffing for critical functionality\n- Runs under ES5 strict mode\n- Runs on a server under [Node.js](http://nodejs.org/) (0.6, 0.8, 0.10) (see [Node.js limitations](https://github.com/kangax/fabric.js/wiki/Fabric-limitations-in-node.js))\n\n### Supported browsers\n\n- Firefox 2+\n- Safari 3+\n- Opera 9.64+\n- Chrome (all versions should work)\n- IE9, IE10, IE11\n\n#### With help of [Explorer Canvas](http://code.google.com/p/explorercanvas/)\n\n- IE8 (incomplete — about 17 failing tests at the moment)\n- IE7,6 (incomplete - about 27 failing tests at the moment)\n\nSee [Fabric limitations in Old IE](https://github.com/kangax/fabric.js/wiki/Fabric-limitations-in-oldIE).\n\nYou can [run automated unit tests](http://fabricjs.com/test/unit/) right in the browser.\n\n### History\n\nFabric.js started as a foundation for design editor on [printio.ru](http://printio.ru) — interactive online store with ability to create your own designs. The idea was to create [Javascript-based editor](http://printio.ru/ringer_man_tees/new), which would make it easy to manipulate vector shapes and images on T-Shirts. Since performance was one of the most critical requirements, we chose canvas over SVG. While SVG is excellent with static shapes, it\'s not as performant as canvas when it comes to dynamic manipulation of objects (movement, scaling, rotation, etc.). Fabric.js was heavily inspired by [Ernest Delgado\'s canvas experiment](http://www.ernestdelgado.com/public-tests/canvasphoto/demo/canvas.html). In fact, code from Ernest\'s experiment was the foundation of an entire framework. Later, Fabric.js grew into a collection of distinct object types and got an SVG-to-canvas parser.\n\n<h3 id="bower-install">Install with bower</h3>\n\n    $ bower install fabric\n\n\n<h3 id="fabric-building">Building</h3>\n\n1. [Install Node.js](https://github.com/joyent/node/wiki/Installation)\n\n2. Build distribution file  **[~77K minified, ~20K gzipped]**\n\n        $ node build.js\n\n    2.1 Or build a custom distribution file, by passing (comma separated) module names to be included.\n\n          $ node build.js modules=text,serialization,parser\n          // or\n          $ node build.js modules=text\n          // or\n          $ node build.js modules=parser,text\n          // etc.\n\n      By default (when none of the modules are specified) only basic functionality is included.\n      See the list of modules below for more information on each one of them.\n      Note that default distribution has support for **static canvases** only.\n\n      To get minimal distribution with interactivity, make sure to include corresponding module:\n\n          $ node build.js modules=interaction\n\n    2.2 You can also include all modules like so:\n\n          $ node build.js modules=ALL\n\n    2.3 You can exclude a few modules like so:\n\n          $ node build.js modules=ALL exclude=gestures,image_filters\n\n3. Create a minified distribution file\n\n        # Using YUICompressor (default option)\n        $ node build.js modules=... minifier=yui\n\n        # or Google Closure Compiler\n        $ node build.js modules=... minifier=closure\n\n4. Enable AMD support via require.js (requires uglify)\n\n        $ node build.js requirejs modules=...\n\n5. Create source map file for better productive debugging (requires uglify or google closure compiler).<br>More information about [source maps](http://www.html5rocks.com/en/tutorials/developertools/sourcemaps/).\n\n        $ node build.js sourcemap modules=...\n\n    If you use google closure compiler you have to add `sourceMappingURL` manually at the end of the minified file all.min.js (see issue https://code.google.com/p/closure-compiler/issues/detail?id=941).\n\n        //# sourceMappingURL=fabric.min.js.map\n\n### Demos\n\n- [Demos](http://fabricjs.com/demos/)\n- [Kitchensink demo](http://fabricjs.com/kitchensink/)\n- [Benchmarks](http://fabricjs.com/benchmarks/)\n\n### Documentation\n\nDocumentation is always available at [http://fabricjs.com/docs/](http://fabricjs.com/docs/).\n\nAlso see [official 4-part intro series](http://fabricjs.com/articles), [presentation from BK.js](http://www.slideshare.net/kangax/fabricjs-building-acanvaslibrarybk) and [presentation from Falsy Values](http://www.slideshare.net/kangax/fabric-falsy-values-8067834) for an overview of fabric.js, how it works, and its features.\n\n### Optional modules\n\nThese are the optional modules that could be specified for inclusion, when building custom version of fabric:\n\n- **text** — Adds support for static text (`fabric.Text`)\n- **itext** — Adds support for interactive text (`fabric.IText`)\n- **serialization** — Adds support for `loadFromJSON`, `loadFromDatalessJSON`, and `clone` methods on `fabric.Canvas`\n- **interaction** — Adds support for interactive features of fabric — selecting/transforming objects/groups via mouse/touch devices.\n- **parser** — Adds support for `fabric.parseSVGDocument`, `fabric.loadSVGFromURL`, and `fabric.loadSVGFromString`\n- **image_filters** — Adds support for image filters, such as grayscale of white removal.\n- **easing** — Adds support for animation easing functions\n- **node** — Adds support for running fabric under node.js, with help of [jsdom](https://github.com/tmpvar/jsdom) and [node-canvas](https://github.com/learnboost/node-canvas) libraries.\n- **freedrawing** — Adds support for free drawing\n- **gestures** — Adds support for multitouch gestures with help of [Event.js](https://github.com/mudcube/Event.js)\n- **object_straightening** — Adds support for rotating an object to one of 0, 90, 180, 270, etc. depending on which is angle is closer.\n- **animation** — Adds support for animation (`fabric.util.animate`, `fabric.util.requestAnimFrame`, `fabric.Object#animate`, `fabric.Canvas#fxCenterObjectH/#fxCenterObjectV/#fxRemove`)\n\nAdditional flags for build script are:\n\n- **requirejs** — Makes fabric requirejs AMD-compatible in `dist/fabric.js`. *Note:* an unminified, requirejs-compatible version is always created in `dist/fabric.require.js`\n- **no-strict** — Strips "use strict" directives from source\n- **no-svg-export** — Removes svg exporting functionality\n- **no-es5-compat** - Removes ES5 compat methods (Array.prototype.*, String.prototype.*, Function.prototype.*)\n- **sourcemap** - Generates a sourceMap file and adds the `sourceMappingURL` (only if uglifyjs is used) to `dist/fabric.min.js`\n\nFor example:\n\n    node build.js modules=ALL exclude=json no-strict no-svg-export\n\n### Examples of use\n\n#### Adding red rectangle to canvas\n\n```html\n\t<!DOCTYPE html>\n\t<html>\n\t<head>\n\t</head>\n\t<body>\n\t\t<canvas id="canvas" width="300" height="300"></canvas>\n\n\t    <script src="lib/fabric.js"></script>\n\t\t<script>\n\t\t\tvar canvas = new fabric.Canvas(\'canvas\');\n\n\t\t\tvar rect = new fabric.Rect({\n\t\t\t\ttop : 100,\n\t\t\t\tleft : 100,\n\t\t\t\twidth : 60,\n\t\t\t\theight : 70,\n\t\t\t\tfill : \'red\'\n\t\t\t});\n\n\t\t\tcanvas.add(rect);\n\t\t</script>\n\t</body>\n\t</html>\n```\n\n### Helping Fabric\n\n- [Fabric on Bountysource](https://www.bountysource.com/trackers/23217-fabric-js)\n- [Fabric on CodeTriage](http://www.codetriage.com/kangax/fabric.js)\n\n### Staying in touch\n\nFollow [@fabric.js](http://twitter.com/fabricjs) or [@kangax](http://twitter.com/kangax) on twitter.\n\nQuestions, suggestions — [fabric.js on Google Groups](http://groups.google.com/group/fabricjs).\n\nSee [Fabric questions on Stackoverflow](stackoverflow.com/questions/tagged/fabricjs),\nFabric snippets on [jsfiddle](http://jsfiddle.net/user/fabricjs/fiddles/)\nor [codepen.io](http://codepen.io/tag/fabricjs).\n\nGet help in Fabric\'s IRC channel — irc://irc.freenode.net/#fabric.js\n\n### Credits\n\n- Ernest Delgado for the original idea of [manipulating images on canvas](http://www.ernestdelgado.com/archive/canvas/).\n- [Maxim "hakunin" Chernyak](http://twitter.com/hakunin) for ideas, and help with various parts of the library throughout its life.\n- [Sergey Nisnevich](http://nisnya.com) for help with geometry logic.\n- [Stefan Kienzle](https://twitter.com/kienzle_s) for help with bugs, features, documentation, github issues\n- Github contributors: @Kingsquare, @cleercode, @jarek-itmore, @sunrei, @khronnuz, @ollym, @garg, @sjpemberton09, @willmcneilly, @davidjrice, @coulix, and [more](https://github.com/kangax/fabric.js/graphs/contributors)\n\n### MIT License\n\nCopyright (c) 2008-2013 Printio (Juriy Zaytsev, Maxim Chernyak)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the "Software"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\n\n[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/kangax/fabric.js/trend.png)](https://bitdeli.com/free "Bitdeli Badge")\n\n',
+67 silly resolved     readmeFilename: 'README.md',
+67 silly resolved     bugs: { url: 'https://github.com/kangax/fabric.js/issues' },
+67 silly resolved     homepage: 'https://github.com/kangax/fabric.js',
+67 silly resolved     _id: 'fabric@1.4.3',
+67 silly resolved     _shasum: '612cb6bf9a58a03d0bee91de4fb5b308c53b8d3d',
+67 silly resolved     _from: 'fabric@',
+67 silly resolved     _resolved: 'https://registry.npmjs.org/fabric/-/fabric-1.4.3.tgz' },
+67 silly resolved   { name: 'canvas',
+67 silly resolved     description: 'Canvas graphics API backed by Cairo',
+67 silly resolved     version: '1.1.3',
+67 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@learnboost.com' },
+67 silly resolved     contributors: [ [Object], [Object], [Object] ],
+67 silly resolved     keywords:
+67 silly resolved      [ 'canvas',
+67 silly resolved        'graphic',
+67 silly resolved        'graphics',
+67 silly resolved        'pixman',
+67 silly resolved        'cairo',
+67 silly resolved        'image',
+67 silly resolved        'images',
+67 silly resolved        'pdf' ],
+67 silly resolved     homepage: 'https://github.com/learnboost/node-canvas',
+67 silly resolved     repository: { type: 'git', url: 'git://github.com/learnboost/node-canvas' },
+67 silly resolved     scripts: { test: 'make test', install: 'node-gyp rebuild' },
+67 silly resolved     dependencies: { nan: '~0.4.1' },
+67 silly resolved     devDependencies: { express: '3.0', jade: '0.28.1', mocha: '*', should: '*' },
+67 silly resolved     engines: { node: '>= 0.6.0' },
+67 silly resolved     main: './lib/canvas.js',
+67 silly resolved     gypfile: true,
+67 silly resolved     readme: '[![Dependency Status](https://gemnasium.com/LearnBoost/node-canvas.png)](https://gemnasium.com/LearnBoost/node-canvas)\n\n# node-canvas\n\n Node canvas is a [Cairo](http://cairographics.org/) backed Canvas implementation for [NodeJS](http://nodejs.org).\n\n## Authors\n\n  - TJ Holowaychuk ([visionmedia](http://github.com/visionmedia))\n\n## Installation\n\n    $ npm install canvas\n\nUnless previously installed you\'ll _need_ __Cairo__. For system-specific installation view the [Wiki](https://github.com/LearnBoost/node-canvas/wiki/_pages).\n\n## Screencasts\n\n  - [Introduction](http://screenr.com/CTk)\n\n## Example\n\n```javascript\nvar Canvas = require(\'canvas\')\n  , canvas = new Canvas(200,200)\n  , ctx = canvas.getContext(\'2d\');\n\nctx.font = \'30px Impact\';\nctx.rotate(.1);\nctx.fillText("Awesome!", 50, 100);\n\nvar te = ctx.measureText(\'Awesome!\');\nctx.strokeStyle = \'rgba(0,0,0,0.5)\';\nctx.beginPath();\nctx.lineTo(50, 102);\nctx.lineTo(50 + te.width, 102);\nctx.stroke();\n\nconsole.log(\'<img src="\' + canvas.toDataURL() + \'" />\');\n```\n\n## Non-Standard API\n\n node-canvas extends the canvas API to provide interfacing with node, for example streaming PNG data, converting to a `Buffer` instance, etc. Among the interfacing API, in some cases the drawing API has been extended for SSJS image manipulation / creation usage, however keep in mind these additions may fail to render properly within browsers.\n\n### Image#src=Buffer\n\n node-canvas adds `Image#src=Buffer` support, allowing you to read images from disc, redis, etc and apply them via `ctx.drawImage()`. Below we draw scaled down squid png by reading it from the disk with node\'s I/O.\n\n```javascript\nfs.readFile(__dirname + \'/images/squid.png\', function(err, squid){\n  if (err) throw err;\n  img = new Image;\n  img.src = squid;\n  ctx.drawImage(img, 0, 0, img.width / 4, img.height / 4);\n});\n```\n\n Below is an example of a canvas drawing it-self as the source several time:\n\n```javascript\nvar img = new Image;\nimg.src = canvas.toBuffer();\nctx.drawImage(img, 0, 0, 50, 50);\nctx.drawImage(img, 50, 0, 50, 50);\nctx.drawImage(img, 100, 0, 50, 50);\n```\n\n### Image#dataMode\n\nnode-canvas adds `Image#dataMode` support, which can be used to opt-in to mime data tracking of images (currently only JPEGs).\n\nWhen mime data is tracked, in PDF mode JPEGs can be embedded directly into the output, rather than being re-encoded into PNG. This can drastically reduce filesize, and speed up rendering.\n\n```javascript\nvar img = new Image;\nimg.dataMode = Image.MODE_IMAGE; // Only image data tracked\nimg.dataMode = Image.MODE_MIME; // Only mime data tracked\nimg.dataMode = Image.MODE_MIME | Image.MODE_IMAGE; // Both are tracked\n```\n\nIf image data is not tracked, and the Image is drawn to an image rather than a PDF canvas, the output will be junk. Enabling mime data tracking has no benefits (only a slow down) unless you are generating a PDF.\n\n### Canvas#pngStream()\n\n  To create a `PNGStream` simply call `canvas.pngStream()`, and the stream will start to emit _data_ events, finally emitting _end_ when finished. If an exception occurs the _error_ event is emitted.\n\n```javascript\nvar fs = require(\'fs\')\n  , out = fs.createWriteStream(__dirname + \'/text.png\')\n  , stream = canvas.pngStream();\n\nstream.on(\'data\', function(chunk){\n  out.write(chunk);\n});\n\nstream.on(\'end\', function(){\n  console.log(\'saved png\');\n});\n```\n\nCurrently _only_ sync streaming is supported, however we plan on supporting async streaming as well (of course :) ). Until then the `Canvas#toBuffer(callback)` alternative is async utilizing `eio_custom()`.\n\n### Canvas#jpegStream() and Canvas#syncJPEGStream()\n\nYou can likewise create a `JPEGStream` by calling `canvas.jpegStream()` with\nsome optional parameters; functionality is otherwise identical to\n`pngStream()`. See `examples/crop.js` for an example.\n\n_Note: At the moment, `jpegStream()` is the same as `syncJPEGStream()`, both\nare synchronous_\n\n```javascript\nvar stream = canvas.jpegStream({\n    bufsize: 4096 // output buffer size in bytes, default: 4096\n  , quality: 75 // JPEG quality (0-100) default: 75\n  , progressive: false // true for progressive compression, default: false\n});\n```\n\n### Canvas#toBuffer()\n\nA call to `Canvas#toBuffer()` will return a node `Buffer` instance containing all of the PNG data.\n\n```javascript\ncanvas.toBuffer();\n```\n\n### Canvas#toBuffer() async\n\nOptionally we may pass a callback function to `Canvas#toBuffer()`, and this process will be performed asynchronously, and will `callback(err, buf)`.\n\n```javascript\ncanvas.toBuffer(function(err, buf){\n\n});\n```\n\n### Canvas#toDataURL() async\n\nOptionally we may pass a callback function to `Canvas#toDataURL()`, and this process will be performed asynchronously, and will `callback(err, str)`.\n\n```javascript\ncanvas.toDataURL(function(err, str){\n\n});\n```\n\nor specify the mime type:\n\n```javascript\ncanvas.toDataURL(\'image/png\', function(err, str){\n\n});\n```\n\n### CanvasRenderingContext2d#patternQuality\n\nGiven one of the values below will alter pattern (gradients, images, etc) render quality, defaults to _good_.\n\n  - fast\n  - good\n  - best\n  - nearest\n  - bilinear\n\n### CanvasRenderingContext2d#textDrawingMode\n\nCan be either `path` or `glyph`. Using `glyph` is much faster than `path` for drawing, and when using a PDF context will embed the text natively, so will be selectable and lower filesize. The downside is that cairo does not have any subpixel precision for `glyph`, so this will be noticeably lower quality for text positioning in cases such as rotated text. Also, strokeText in `glyph` will act the same as fillText, except using the stroke style for the fill.\n\nDefaults to _path_.\n\nThis property is tracked as part of the canvas state in save/restore.\n\n### CanvasRenderingContext2d#filter\n\nLike `patternQuality`, but applies to transformations effecting more than just patterns. Defaults to _good_.\n\n  - fast\n  - good\n  - best\n  - nearest\n  - bilinear\n\n### Global Composite Operations\n\nIn addition to those specified and commonly implemented by browsers, the following have been added:\n\n  - multiply\n  - screen\n  - overlay\n  - hard-light\n  - soft-light\n  - hsl-hue\n  - hsl-saturation\n  - hsl-color\n  - hsl-luminosity\n\n## Anti-Aliasing\n\n Set anti-aliasing mode\n\n - default\n - none\n - gray\n - subpixel\n\n For example:\n\n```javascript\nctx.antialias = \'none\';\n```\n\n## PDF Support\n\n  Basic PDF support was added in 0.11.0. Make sure to install cairo with `--enable-pdf=yes` for the PDF backend. node-canvas must know that it is creating\n  a PDF on initialization, using the "pdf" string:\n\n```js\nvar canvas = new Canvas(200, 500, \'pdf\');\n```\n\n An additional method `.addPage()` is then available to create\n multiple page PDFs:\n\n```js\nctx.font = \'22px Helvetica\';\nctx.fillText(\'Hello World\', 50, 80);\nctx.addPage();\n\nctx.font = \'22px Helvetica\';\nctx.fillText(\'Hello World 2\', 50, 80);\nctx.addPage();\n\nctx.font = \'22px Helvetica\';\nctx.fillText(\'Hello World 3\', 50, 80);\nctx.addPage();\n```\n\n## Benchmarks\n\n Although node-canvas is extremely new, and we have not even begun optimization yet it is already quite fast. For benchmarks vs other node canvas implementations view this [gist](https://gist.github.com/664922), or update the submodules and run `$ make benchmark` yourself.\n\n## Contribute\n\n Want to contribute to node-canvas? patches for features, bug fixes, documentation, examples and others are certainly welcome. Take a look at the [issue queue](https://github.com/LearnBoost/node-canvas/issues) for existing issues.\n\n## Examples\n\n Examples are placed in _./examples_, be sure to check them out! most produce a png image of the same name, and others such as _live-clock.js_ launch an http server to be viewed in the browser.\n\n## Testing\n\nIf you have not previously, init git submodules:\n\n    $ git submodule update --init\n\nBuild node-canvas:\n\n    $ node-waf configure build\n\nUnit tests:\n\n    $ make test\n\nVisual tests:\n\n    $ make test-server\n\n## Versions\n\nTested with and designed for:\n\n  - node 0.4.2\n  - cairo 1.8.6\n\nFor node 0.2.x `node-canvas` <= 0.4.3 may be used,\n0.5.0 and above are designed for node 0.4.x only.\n\n## Contributors\n\n```\nproject  : node-canvas\n repo age : 1 year, 11 months\n active   : 120 days\n commits  : 963\n files    : 72\n authors  :\n   816\tTj Holowaychuk          84.7%\n    58\tTJ Holowaychuk          6.0%\n    23\tc-spencer               2.4%\n    16\tNathan Rajlich          1.7%\n    12\tatomizer                1.2%\n     6\tElijah Hamovitz         0.6%\n     5\tLuigi Pinca             0.5%\n     5\tRobert Sköld            0.5%\n     4\tobarthel                0.4%\n     3\tDon Park                0.3%\n     2\tAndreas Botsikas        0.2%\n     2\tGabriel Falcao          0.2%\n     1\tBrian McKinney          0.1%\n     1\tSeiya Konno             0.1%\n     1\tSyoyo Fujita            0.1%\n     1\tMarcello Bastea-Forte   0.1%\n     1\tTharit                  0.1%\n     1\tKonstantin Käfer        0.1%\n     1\tTom Carden              0.1%\n     1\tWalt Lin                0.1%\n     1\tDavid Björklund         0.1%\n     1\tBrian White             0.1%\n     1\tPhilippe Plantier       0.1%\n```\n\n## License\n\n(The MIT License)\n\nCopyright (c) 2010 LearnBoost &lt;dev@learnboost.ca&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+67 silly resolved     readmeFilename: 'Readme.md',
+67 silly resolved     bugs: { url: 'https://github.com/learnboost/node-canvas/issues' },
+67 silly resolved     _id: 'canvas@1.1.3',
+67 silly resolved     _shasum: '93e5ba3988b7e6419b3a1bdc6d948ea0eb6a5e51',
+67 silly resolved     _from: 'canvas@',
+67 silly resolved     _resolved: 'https://registry.npmjs.org/canvas/-/canvas-1.1.3.tgz' } ]
+68 info install fabric@1.4.3 into /usr/lib
+69 info install canvas@1.1.3 into /usr/lib
+70 info installOne fabric@1.4.3
+71 warn engine fabric@1.4.3: wanted: {"node":">=0.4.0 && <1.0.0"} (current: {"node":"v0.10.28","npm":"1.4.9"})
+72 info installOne canvas@1.1.3
+73 info /usr/lib/node_modules/canvas unbuild
+74 info /usr/lib/node_modules/fabric unbuild
+75 verbose tar unpack /home/kunal15595/.npm/canvas/1.1.3/package.tgz
+76 silly lockFile 8bc9cf69-tar-usr-lib-node-modules-canvas tar:///usr/lib/node_modules/canvas
+77 verbose lock tar:///usr/lib/node_modules/canvas /home/kunal15595/.npm/8bc9cf69-tar-usr-lib-node-modules-canvas.lock
+78 silly lockFile 8cff7846-595-npm-canvas-1-1-3-package-tgz tar:///home/kunal15595/.npm/canvas/1.1.3/package.tgz
+79 verbose lock tar:///home/kunal15595/.npm/canvas/1.1.3/package.tgz /home/kunal15595/.npm/8cff7846-595-npm-canvas-1-1-3-package-tgz.lock
+80 silly gunzTarPerm modes [ '755', '644' ]
+81 silly gunzTarPerm extractEntry package.json
+82 silly gunzTarPerm extractEntry .npmignore
+83 silly gunzTarPerm extractEntry index.js
+84 silly gunzTarPerm extractEntry binding.gyp
+85 silly gunzTarPerm extractEntry Makefile
+86 silly gunzTarPerm extractEntry Readme.md
+87 silly gunzTarPerm extractEntry .gitmodules
+88 silly gunzTarPerm extractEntry .travis.yml
+89 silly gunzTarPerm extractEntry install
+90 silly gunzTarPerm extractEntry lib/bindings.js
+91 silly gunzTarPerm extractEntry lib/canvas.js
+92 silly gunzTarPerm extractEntry lib/context2d.js
+93 silly gunzTarPerm extractEntry lib/image.js
+94 silly gunzTarPerm extractEntry lib/jpegstream.js
+95 silly gunzTarPerm extractEntry lib/pixelarray.js
+96 silly gunzTarPerm extractEntry lib/pngstream.js
+97 silly gunzTarPerm extractEntry History.md
+98 silly gunzTarPerm extractEntry src/Image.h
+99 silly gunzTarPerm extractEntry src/Canvas.cc
+100 silly gunzTarPerm extractEntry src/CanvasGradient.cc
+101 silly gunzTarPerm extractEntry src/CanvasGradient.h
+102 silly gunzTarPerm extractEntry src/CanvasPattern.cc
+103 silly gunzTarPerm extractEntry src/CanvasPattern.h
+104 silly gunzTarPerm extractEntry src/CanvasRenderingContext2d.cc
+105 silly gunzTarPerm extractEntry src/CanvasRenderingContext2d.h
+106 silly gunzTarPerm extractEntry src/FontFace.cc
+107 silly gunzTarPerm extractEntry src/FontFace.h
+108 silly gunzTarPerm extractEntry src/Image.cc
+109 silly gunzTarPerm extractEntry src/Canvas.h
+110 silly gunzTarPerm extractEntry src/ImageData.cc
+111 silly gunzTarPerm extractEntry src/ImageData.h
+112 silly gunzTarPerm extractEntry src/JPEGStream.h
+113 silly gunzTarPerm extractEntry src/PNG.h
+114 silly gunzTarPerm extractEntry src/PixelArray.cc
+115 silly gunzTarPerm extractEntry src/PixelArray.h
+116 silly gunzTarPerm extractEntry src/Point.h
+117 silly gunzTarPerm extractEntry src/closure.h
+118 silly gunzTarPerm extractEntry src/color.cc
+119 silly gunzTarPerm extractEntry src/color.h
+120 silly gunzTarPerm extractEntry src/init.cc
+121 silly gunzTarPerm extractEntry util/cairo_include.sh
+122 silly gunzTarPerm extractEntry util/has_cairo_freetype.sh
+123 silly gunzTarPerm extractEntry util/has_lib.sh
+124 silly gunzTarPerm extractEntry util/lib_lookup.sh
+125 verbose tar unpack /home/kunal15595/.npm/fabric/1.4.3/package.tgz
+126 silly lockFile 8c939902-tar-usr-lib-node-modules-fabric tar:///usr/lib/node_modules/fabric
+127 verbose lock tar:///usr/lib/node_modules/fabric /home/kunal15595/.npm/8c939902-tar-usr-lib-node-modules-fabric.lock
+128 silly lockFile 4b85bcae-595-npm-fabric-1-4-3-package-tgz tar:///home/kunal15595/.npm/fabric/1.4.3/package.tgz
+129 verbose lock tar:///home/kunal15595/.npm/fabric/1.4.3/package.tgz /home/kunal15595/.npm/4b85bcae-595-npm-fabric-1-4-3-package-tgz.lock
+130 silly gunzTarPerm modes [ '755', '644' ]
+131 silly gunzTarPerm extractEntry package.json
+132 silly gunzTarPerm extractEntry .npmignore
+133 silly gunzTarPerm extractEntry README.md
+134 silly gunzTarPerm extractEntry LICENSE
+135 silly gunzTarPerm extractEntry test.js
+136 silly gunzTarPerm extractEntry create_build_script.js
+137 silly gunzTarPerm extractEntry .jshintrc
+138 silly gunzTarPerm extractEntry .sublime-project.sublime-workspace
+139 silly gunzTarPerm extractEntry before_commit
+140 silly gunzTarPerm extractEntry .travis.yml
+141 silly gunzTarPerm extractEntry build_all
+142 silly gunzTarPerm extractEntry component.json
+143 silly gunzTarPerm extractEntry CHANGELOG.md
+144 silly gunzTarPerm extractEntry dist/fabric.js
+145 silly gunzTarPerm extractEntry dist/fabric.require.js
+146 silly gunzTarPerm extractEntry fabric.sublime-project
+147 silly lockFile 8bc9cf69-tar-usr-lib-node-modules-canvas tar:///usr/lib/node_modules/canvas
+148 silly lockFile 8bc9cf69-tar-usr-lib-node-modules-canvas tar:///usr/lib/node_modules/canvas
+149 silly lockFile 8cff7846-595-npm-canvas-1-1-3-package-tgz tar:///home/kunal15595/.npm/canvas/1.1.3/package.tgz
+150 silly lockFile 8cff7846-595-npm-canvas-1-1-3-package-tgz tar:///home/kunal15595/.npm/canvas/1.1.3/package.tgz
+151 info preinstall canvas@1.1.3
+152 verbose readDependencies using package.json deps
+153 verbose readDependencies using package.json deps
+154 verbose cache add [ 'nan@~0.4.1', null ]
+155 verbose cache add name=undefined spec="nan@~0.4.1" args=["nan@~0.4.1",null]
+156 verbose parsed url { protocol: null,
+156 verbose parsed url   slashes: null,
+156 verbose parsed url   auth: null,
+156 verbose parsed url   host: null,
+156 verbose parsed url   port: null,
+156 verbose parsed url   hostname: null,
+156 verbose parsed url   hash: null,
+156 verbose parsed url   search: null,
+156 verbose parsed url   query: null,
+156 verbose parsed url   pathname: 'nan@~0.4.1',
+156 verbose parsed url   path: 'nan@~0.4.1',
+156 verbose parsed url   href: 'nan@~0.4.1' }
+157 verbose cache add name="nan" spec="~0.4.1" args=["nan","~0.4.1"]
+158 verbose parsed url { protocol: null,
+158 verbose parsed url   slashes: null,
+158 verbose parsed url   auth: null,
+158 verbose parsed url   host: null,
+158 verbose parsed url   port: null,
+158 verbose parsed url   hostname: null,
+158 verbose parsed url   hash: null,
+158 verbose parsed url   search: null,
+158 verbose parsed url   query: null,
+158 verbose parsed url   pathname: '~0.4.1',
+158 verbose parsed url   path: '~0.4.1',
+158 verbose parsed url   href: '~0.4.1' }
+159 verbose addNamed [ 'nan', '~0.4.1' ]
+160 verbose addNamed [ null, '>=0.4.1-0 <0.5.0-0' ]
+161 silly lockFile d65817a5-nan-0-4-1 nan@~0.4.1
+162 verbose lock nan@~0.4.1 /home/kunal15595/.npm/d65817a5-nan-0-4-1.lock
+163 silly addNameRange { name: 'nan', range: '>=0.4.1-0 <0.5.0-0', hasData: false }
+164 verbose url raw nan
+165 verbose url resolving [ 'https://registry.npmjs.org/', './nan' ]
+166 verbose url resolved https://registry.npmjs.org/nan
+167 info trying registry request attempt 1 at 03:20:42
+168 verbose etag "AHXQ5MEXNAVAQ8W9Q2GUKPOL"
+169 http GET https://registry.npmjs.org/nan
+170 silly gunzTarPerm extractEntry fabric.sublime-workspace
+171 silly gunzTarPerm extractEntry CONTRIBUTING.md
+172 silly gunzTarPerm extractEntry test/fixtures/test_script.js
+173 silly gunzTarPerm extractEntry test/fixtures/car.svg
+174 silly gunzTarPerm extractEntry test/fixtures/greyfloral.png
+175 silly gunzTarPerm extractEntry test/fixtures/path.svg
+176 silly gunzTarPerm extractEntry test/fixtures/svg_with_rect.svg
+177 silly gunzTarPerm extractEntry test/fixtures/test_image.gif
+178 silly gunzTarPerm extractEntry test/fixtures/very_large_image.jpg
+179 silly gunzTarPerm extractEntry test/lib/canvas_assertions.js
+180 silly gunzTarPerm extractEntry test/lib/event.simulate.js
+181 silly gunzTarPerm extractEntry test/lib/qunit.js
+182 silly gunzTarPerm extractEntry test/lib/qunit.css
+183 silly gunzTarPerm extractEntry test/unit/canvas.js
+184 silly gunzTarPerm extractEntry test/unit/image_filters.js
+185 silly gunzTarPerm extractEntry test/unit/itext.js
+186 silly gunzTarPerm extractEntry test/unit/line.js
+187 silly gunzTarPerm extractEntry test/unit/object.js
+188 silly gunzTarPerm extractEntry test/unit/image.js
+189 silly gunzTarPerm extractEntry test/unit/observable.js
+190 silly gunzTarPerm extractEntry test/unit/parser.js
+191 silly gunzTarPerm extractEntry test/unit/path.js
+192 silly gunzTarPerm extractEntry test/unit/path_group.js
+193 silly gunzTarPerm extractEntry test/unit/pattern.js
+194 silly gunzTarPerm extractEntry test/unit/group.js
+195 silly gunzTarPerm extractEntry test/unit/polygon.js
+196 silly gunzTarPerm extractEntry test/unit/gradient.js
+197 silly gunzTarPerm extractEntry test/unit/polyline.js
+198 silly gunzTarPerm extractEntry test/unit/ellipse.js
+199 silly gunzTarPerm extractEntry test/unit/rect.js
+200 silly gunzTarPerm extractEntry test/unit/color.js
+201 silly gunzTarPerm extractEntry test/unit/shadow.js
+202 silly gunzTarPerm extractEntry test/unit/circle.js
+203 silly gunzTarPerm extractEntry test/unit/text.js
+204 silly gunzTarPerm extractEntry test/unit/canvas_static.js
+205 silly gunzTarPerm extractEntry test/unit/util.js
+206 silly gunzTarPerm extractEntry test/unit/object_interactivity.js
+207 silly gunzTarPerm extractEntry build.sh
+208 silly lockFile 8c939902-tar-usr-lib-node-modules-fabric tar:///usr/lib/node_modules/fabric
+209 silly lockFile 8c939902-tar-usr-lib-node-modules-fabric tar:///usr/lib/node_modules/fabric
+210 silly lockFile 4b85bcae-595-npm-fabric-1-4-3-package-tgz tar:///home/kunal15595/.npm/fabric/1.4.3/package.tgz
+211 silly lockFile 4b85bcae-595-npm-fabric-1-4-3-package-tgz tar:///home/kunal15595/.npm/fabric/1.4.3/package.tgz
+212 info preinstall fabric@1.4.3
+213 verbose readDependencies using package.json deps
+214 verbose readDependencies using package.json deps
+215 verbose cache add [ 'jsdom@0.8.x', null ]
+216 verbose cache add name=undefined spec="jsdom@0.8.x" args=["jsdom@0.8.x",null]
+217 verbose parsed url { protocol: null,
+217 verbose parsed url   slashes: null,
+217 verbose parsed url   auth: null,
+217 verbose parsed url   host: null,
+217 verbose parsed url   port: null,
+217 verbose parsed url   hostname: null,
+217 verbose parsed url   hash: null,
+217 verbose parsed url   search: null,
+217 verbose parsed url   query: null,
+217 verbose parsed url   pathname: 'jsdom@0.8.x',
+217 verbose parsed url   path: 'jsdom@0.8.x',
+217 verbose parsed url   href: 'jsdom@0.8.x' }
+218 verbose cache add name="jsdom" spec="0.8.x" args=["jsdom","0.8.x"]
+219 verbose parsed url { protocol: null,
+219 verbose parsed url   slashes: null,
+219 verbose parsed url   auth: null,
+219 verbose parsed url   host: null,
+219 verbose parsed url   port: null,
+219 verbose parsed url   hostname: null,
+219 verbose parsed url   hash: null,
+219 verbose parsed url   search: null,
+219 verbose parsed url   query: null,
+219 verbose parsed url   pathname: '0.8.x',
+219 verbose parsed url   path: '0.8.x',
+219 verbose parsed url   href: '0.8.x' }
+220 verbose addNamed [ 'jsdom', '0.8.x' ]
+221 verbose addNamed [ null, '>=0.8.0-0 <0.9.0-0' ]
+222 silly lockFile dba6d1f7-jsdom-0-8-x jsdom@0.8.x
+223 verbose lock jsdom@0.8.x /home/kunal15595/.npm/dba6d1f7-jsdom-0-8-x.lock
+224 verbose cache add [ 'xmldom@0.1.x', null ]
+225 verbose cache add name=undefined spec="xmldom@0.1.x" args=["xmldom@0.1.x",null]
+226 verbose parsed url { protocol: null,
+226 verbose parsed url   slashes: null,
+226 verbose parsed url   auth: null,
+226 verbose parsed url   host: null,
+226 verbose parsed url   port: null,
+226 verbose parsed url   hostname: null,
+226 verbose parsed url   hash: null,
+226 verbose parsed url   search: null,
+226 verbose parsed url   query: null,
+226 verbose parsed url   pathname: 'xmldom@0.1.x',
+226 verbose parsed url   path: 'xmldom@0.1.x',
+226 verbose parsed url   href: 'xmldom@0.1.x' }
+227 verbose cache add name="xmldom" spec="0.1.x" args=["xmldom","0.1.x"]
+228 verbose parsed url { protocol: null,
+228 verbose parsed url   slashes: null,
+228 verbose parsed url   auth: null,
+228 verbose parsed url   host: null,
+228 verbose parsed url   port: null,
+228 verbose parsed url   hostname: null,
+228 verbose parsed url   hash: null,
+228 verbose parsed url   search: null,
+228 verbose parsed url   query: null,
+228 verbose parsed url   pathname: '0.1.x',
+228 verbose parsed url   path: '0.1.x',
+228 verbose parsed url   href: '0.1.x' }
+229 verbose addNamed [ 'xmldom', '0.1.x' ]
+230 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+231 silly lockFile ec5b92b1-xmldom-0-1-x xmldom@0.1.x
+232 verbose lock xmldom@0.1.x /home/kunal15595/.npm/ec5b92b1-xmldom-0-1-x.lock
+233 silly addNameRange { name: 'jsdom', range: '>=0.8.0-0 <0.9.0-0', hasData: false }
+234 silly addNameRange { name: 'xmldom', range: '>=0.1.0-0 <0.2.0-0', hasData: false }
+235 verbose url raw xmldom
+236 verbose url resolving [ 'https://registry.npmjs.org/', './xmldom' ]
+237 verbose url resolved https://registry.npmjs.org/xmldom
+238 info trying registry request attempt 1 at 03:20:42
+239 verbose etag "5P5HSHF5Y5IRCBO2E8J7B8TJ2"
+240 http GET https://registry.npmjs.org/xmldom
+241 verbose url raw jsdom
+242 verbose url resolving [ 'https://registry.npmjs.org/', './jsdom' ]
+243 verbose url resolved https://registry.npmjs.org/jsdom
+244 info trying registry request attempt 1 at 03:20:42
+245 verbose etag "CYNV5LN25E9W1N878HB017SPS"
+246 http GET https://registry.npmjs.org/jsdom
+247 http 304 https://registry.npmjs.org/nan
+248 silly registry.get cb [ 304,
+248 silly registry.get   { date: 'Mon, 19 May 2014 21:50:44 GMT',
+248 silly registry.get     server: 'Apache',
+248 silly registry.get     via: '1.1 varnish',
+248 silly registry.get     'last-modified': 'Mon, 19 May 2014 21:50:44 GMT',
+248 silly registry.get     'cache-control': 'max-age=1',
+248 silly registry.get     etag: '"AHXQ5MEXNAVAQ8W9Q2GUKPOL"',
+248 silly registry.get     'x-served-by': 'cache-sv95-SJC3',
+248 silly registry.get     'x-cache': 'HIT',
+248 silly registry.get     'x-cache-hits': '1',
+248 silly registry.get     'x-timer': 'S1400536244.027762413,VS0,VE161',
+248 silly registry.get     vary: 'Accept',
+248 silly registry.get     'content-length': '0',
+248 silly registry.get     'keep-alive': 'timeout=10, max=50',
+248 silly registry.get     connection: 'Keep-Alive' } ]
+249 verbose etag nan from cache
+250 silly addNameRange number 2 { name: 'nan', range: '>=0.4.1-0 <0.5.0-0', hasData: true }
+251 silly addNameRange versions [ 'nan',
+251 silly addNameRange   [ '0.3.0-wip',
+251 silly addNameRange     '0.3.0-wip2',
+251 silly addNameRange     '0.3.0',
+251 silly addNameRange     '0.3.1',
+251 silly addNameRange     '0.3.2',
+251 silly addNameRange     '0.4.0',
+251 silly addNameRange     '0.4.1',
+251 silly addNameRange     '0.4.2',
+251 silly addNameRange     '0.4.3',
+251 silly addNameRange     '0.4.4',
+251 silly addNameRange     '0.5.0',
+251 silly addNameRange     '0.5.1',
+251 silly addNameRange     '0.5.2',
+251 silly addNameRange     '0.6.0',
+251 silly addNameRange     '0.7.0',
+251 silly addNameRange     '0.7.1',
+251 silly addNameRange     '0.8.0',
+251 silly addNameRange     '1.0.0' ] ]
+252 verbose addNamed [ 'nan', '0.4.4' ]
+253 verbose addNamed [ '0.4.4', '0.4.4' ]
+254 silly lockFile 795fb663-nan-0-4-4 nan@0.4.4
+255 verbose lock nan@0.4.4 /home/kunal15595/.npm/795fb663-nan-0-4-4.lock
+256 silly lockFile 795fb663-nan-0-4-4 nan@0.4.4
+257 silly lockFile 795fb663-nan-0-4-4 nan@0.4.4
+258 silly lockFile d65817a5-nan-0-4-1 nan@~0.4.1
+259 silly lockFile d65817a5-nan-0-4-1 nan@~0.4.1
+260 silly resolved [ { name: 'nan',
+260 silly resolved     version: '0.4.4',
+260 silly resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility',
+260 silly resolved     main: '.index.js',
+260 silly resolved     repository: { type: 'git', url: 'git://github.com/rvagg/nan.git' },
+260 silly resolved     contributors: [ [Object], [Object], [Object] ],
+260 silly resolved     license: 'MIT',
+260 silly resolved     readme: 'Native Abstractions for Node.js\n===============================\n\n**A header file filled with macro and utility goodness for making add-on development for Node.js easier across versions 0.8, 0.10 and 0.11, and eventually 0.12.**\n\n***Current version: 0.4.4*** *(See [nan.h](https://github.com/rvagg/nan/blob/master/nan.h) for complete ChangeLog)*\n\n[![NPM](https://nodei.co/npm/nan.png?downloads=true&stars=true)](https://nodei.co/npm/nan/) [![NPM](https://nodei.co/npm-dl/nan.png?months=6)](https://nodei.co/npm/nan/)\n\nThanks to the crazy changes in V8 (and some in Node core), keeping native addons compiling happily across versions, particularly 0.10 to 0.11/0.12, is a minor nightmare. The goal of this project is to store all logic necessary to develop native Node.js addons without having to inspect `NODE_MODULE_VERSION` and get yourself into a macro-tangle.\n\nThis project also contains some helper utilities that make addon development a bit more pleasant.\n\n * **[Usage](#usage)**\n * **[Example](#example)**\n * **[API](#api)**\n\n<a name="usage"></a>\n## Usage\n\nSimply add **NAN** as a dependency in the *package.json* of your Node addon:\n\n```js\n"dependencies": {\n    ...\n    "nan" : "~0.4.4"\n    ...\n}\n```\n\nPull in the path to **NAN** in your *binding.gyp* so that you can use `#include "nan.h"` in your *.cpp*:\n\n```js\n"include_dirs" : [\n    "<!(node -p -e \\"require(\'path\').relative(\'.\', require(\'path\').dirname(require.resolve(\'nan\')))\\")"\n]\n```\n\nThis works like a `-I<path-to-NAN>` when compiling your addon.\n\n<a name="example"></a>\n## Example\n\nSee **[LevelDOWN](https://github.com/rvagg/node-leveldown/pull/48)** for a full example of **NAN** in use.\n\nFor a simpler example, see the **[async pi estimation example](https://github.com/rvagg/nan/tree/master/examples/async_pi_estimate)** in the examples directory for full code and an explanation of what this Monte Carlo Pi estimation example does. Below are just some parts of the full example that illustrate the use of **NAN**.\n\nCompare to the current 0.10 version of this example, found in the [node-addon-examples](https://github.com/rvagg/node-addon-examples/tree/master/9_async_work) repository and also a 0.11 version of the same found [here](https://github.com/kkoopa/node-addon-examples/tree/5c01f58fc993377a567812597e54a83af69686d7/9_async_work).\n\nNote that there is no embedded version sniffing going on here and also the async work is made much simpler, see below for details on the `NanAsyncWorker` class.\n\n```c++\n// addon.cc\n#include <node.h>\n#include "nan.h"\n// ...\n\nusing namespace v8;\n\nvoid InitAll(Handle<Object> exports) {\n  exports->Set(NanSymbol("calculateSync"),\n    FunctionTemplate::New(CalculateSync)->GetFunction());\n\n  exports->Set(NanSymbol("calculateAsync"),\n    FunctionTemplate::New(CalculateAsync)->GetFunction());\n}\n\nNODE_MODULE(addon, InitAll)\n```\n\n```c++\n// sync.h\n#include <node.h>\n#include "nan.h"\n\nNAN_METHOD(CalculateSync);\n```\n\n```c++\n// sync.cc\n#include <node.h>\n#include "nan.h"\n#include "sync.h"\n// ...\n\nusing namespace v8;\n\n// Simple synchronous access to the `Estimate()` function\nNAN_METHOD(CalculateSync) {\n  NanScope();\n\n  // expect a number as the first argument\n  int points = args[0]->Uint32Value();\n  double est = Estimate(points);\n\n  NanReturnValue(Number::New(est));\n}\n```\n\n```c++\n// async.cc\n#include <node.h>\n#include "nan.h"\n#include "async.h"\n\n// ...\n\nusing namespace v8;\n\nclass PiWorker : public NanAsyncWorker {\n public:\n  PiWorker(NanCallback *callback, int points)\n    : NanAsyncWorker(callback), points(points) {}\n  ~PiWorker() {}\n\n  // Executed inside the worker-thread.\n  // It is not safe to access V8, or V8 data structures\n  // here, so everything we need for input and output\n  // should go on `this`.\n  void Execute () {\n    estimate = Estimate(points);\n  }\n\n  // Executed when the async work is complete\n  // this function will be run inside the main event loop\n  // so it is safe to use V8 again\n  void HandleOKCallback () {\n    NanScope();\n\n    Local<Value> argv[] = {\n        Local<Value>::New(Null())\n      , Number::New(estimate)\n    };\n\n    callback->Call(2, argv);\n  };\n\n private:\n  int points;\n  double estimate;\n};\n\n// Asynchronous access to the `Estimate()` function\nNAN_METHOD(CalculateAsync) {\n  NanScope();\n\n  int points = args[0]->Uint32Value();\n  NanCallback *callback = new NanCallback(args[1].As<Function>());\n\n  NanAsyncQueueWorker(new PiWorker(callback, points));\n  NanReturnUndefined();\n}\n```\n\n<a name="api"></a>\n## API\n\n * <a href="#api_nan_method"><b><code>NAN_METHOD</code></b></a>\n * <a href="#api_nan_getter"><b><code>NAN_GETTER</code></b></a>\n * <a href="#api_nan_setter"><b><code>NAN_SETTER</code></b></a>\n * <a href="#api_nan_property_getter"><b><code>NAN_PROPERTY_GETTER</code></b></a>\n * <a href="#api_nan_property_setter"><b><code>NAN_PROPERTY_SETTER</code></b></a>\n * <a href="#api_nan_property_enumerator"><b><code>NAN_PROPERTY_ENUMERATOR</code></b></a>\n * <a href="#api_nan_property_deleter"><b><code>NAN_PROPERTY_DELETER</code></b></a>\n * <a href="#api_nan_property_query"><b><code>NAN_PROPERTY_QUERY</code></b></a>\n * <a href="#api_nan_weak_callback"><b><code>NAN_WEAK_CALLBACK</code></b></a>\n * <a href="#api_nan_deprecated"><b><code>NAN_DEPRECATED</code></b></a>\n * <a href="#api_nan_inline"><b><code>NAN_INLINE</code></b></a> \n * <a href="#api_nan_return_value"><b><code>NanReturnValue</code></b></a>\n * <a href="#api_nan_return_undefined"><b><code>NanReturnUndefined</code></b></a>\n * <a href="#api_nan_return_null"><b><code>NanReturnNull</code></b></a>\n * <a href="#api_nan_return_empty_string"><b><code>NanReturnEmptyString</code></b></a>\n * <a href="#api_nan_scope"><b><code>NanScope</code></b></a>\n * <a href="#api_nan_locker"><b><code>NanLocker</code></b></a>\n * <a href="#api_nan_unlocker"><b><code>NanUnlocker</code></b></a>\n * <a href="#api_nan_get_internal_field_pointer"><b><code>NanGetInternalFieldPointer</code></b></a>\n * <a href="#api_nan_set_internal_field_pointer"><b><code>NanSetInternalFieldPointer</code></b></a>\n * <a href="#api_nan_object_wrap_handle"><b><code>NanObjectWrapHandle</code></b></a>\n * <a href="#api_nan_make_weak"><b><code>NanMakeWeak</code></b></a>\n * <a href="#api_nan_symbol"><b><code>NanSymbol</code></b></a>\n * <a href="#api_nan_get_pointer_safe"><b><code>NanGetPointerSafe</code></b></a>\n * <a href="#api_nan_set_pointer_safe"><b><code>NanSetPointerSafe</code></b></a>\n * <a href="#api_nan_from_v8_string"><b><code>NanFromV8String</code></b></a>\n * <a href="#api_nan_boolean_option_value"><b><code>NanBooleanOptionValue</code></b></a>\n * <a href="#api_nan_uint32_option_value"><b><code>NanUInt32OptionValue</code></b></a>\n * <a href="#api_nan_error"><b><code>NanError</code></b>, <b><code>NanTypeError</code></b>, <b><code>NanRangeError</code></b></a>\n * <a href="#api_nan_throw_error"><b><code>NanThrowError</code></b>, <b><code>NanThrowTypeError</code></b>, <b><code>NanThrowRangeError</code></b>, <b><code>NanThrowError(Handle<Value>)</code></b>, <b><code>NanThrowError(Handle<Value>, int)</code></b></a>\n * <a href="#api_nan_new_buffer_handle"><b><code>NanNewBufferHandle(char *, size_t, FreeCallback, void *)</code></b>, <b><code>NanNewBufferHandle(char *, uint32_t)</code></b>, <b><code>NanNewBufferHandle(uint32_t)</code></b></a>\n * <a href="#api_nan_buffer_use"><b><code>NanBufferUse(char *, uint32_t)</code></b></a>\n * <a href="#api_nan_new_context_handle"><b><code>NanNewContextHandle</code></b></a>\n * <a href="#api_nan_has_instance"><b><code>NanHasInstance</code></b></a>\n * <a href="#api_nan_persistent_to_local"><b><code>NanPersistentToLocal</code></b></a>\n * <a href="#api_nan_dispose"><b><code>NanDispose</code></b></a>\n * <a href="#api_nan_assign_persistent"><b><code>NanAssignPersistent</code></b></a>\n * <a href="#api_nan_init_persistent"><b><code>NanInitPersistent</code></b></a>\n * <a href="#api_nan_callback"><b><code>NanCallback</code></b></a>\n * <a href="#api_nan_async_worker"><b><code>NanAsyncWorker</code></b></a>\n * <a href="#api_nan_async_queue_worker"><b><code>NanAsyncQueueWorker</code></b></a>\n\n<a name="api_nan_method"></a>\n### NAN_METHOD(methodname)\n\nUse `NAN_METHOD` to define your V8 accessible methods:\n\n```c++\n// .h:\nclass Foo : public node::ObjectWrap {\n  ...\n\n  static NAN_METHOD(Bar);\n  static NAN_METHOD(Baz);\n}\n\n\n// .cc:\nNAN_METHOD(Foo::Bar) {\n  ...\n}\n\nNAN_METHOD(Foo::Baz) {\n  ...\n}\n```\n\nThe reason for this macro is because of the method signature change in 0.11:\n\n```c++\n// 0.10 and below:\nHandle<Value> name(const Arguments& args)\n\n// 0.11 and above\nvoid name(const FunctionCallbackInfo<Value>& args)\n```\n\nThe introduction of `FunctionCallbackInfo` brings additional complications:\n\n<a name="api_nan_getter"></a>\n### NAN_GETTER(methodname)\n\nUse `NAN_GETTER` to declare your V8 accessible getters. You get a `Local<String>` `property` and an appropriately typed `args` object that can act like the `args` argument to a `NAN_METHOD` call.\n\nYou can use `NanReturnNull()`, `NanReturnEmptyString()`, `NanReturnUndefined()` and `NanReturnValue()` in a `NAN_GETTER`.\n\n<a name="api_nan_setter"></a>\n### NAN_SETTER(methodname)\n\nUse `NAN_SETTER` to declare your V8 accessible setters. Same as `NAN_GETTER` but you also get a `Local<Value>` `value` object to work with.\n\nYou can use `NanReturnNull()`, `NanReturnEmptyString()`, `NanReturnUndefined()` and `NanReturnValue()` in a `NAN_SETTER`.\n\n<a name="api_nan_property_getter"></a>\n### NAN_PROPERTY_GETTER(cbname)\nUse `NAN_PROPERTY_GETTER` to declare your V8 accessible property getters. You get a `Local<String>` `property` and an appropriately typed `args` object that can act similar to the `args` argument to a `NAN_METHOD` call.\n\nYou can use `NanReturnNull()`, `NanReturnEmptyString()`, `NanReturnUndefined()` and `NanReturnValue()` in a `NAN_PROPERTY_GETTER`.\n\n<a name="api_nan_property_setter"></a>\n### NAN_PROPERTY_SETTER(cbname)\nUse `NAN_PROPERTY_SETTER` to declare your V8 accessible property setters. Same as `NAN_PROPERTY_GETTER` but you also get a `Local<Value>` `value` object to work with.\n\nYou can use `NanReturnNull()`, `NanReturnEmptyString()`, `NanReturnUndefined()` and `NanReturnValue()` in a `NAN_PROPERTY_SETTER`.\n\n<a name="api_nan_property_enumerator"></a>\n### NAN_PROPERTY_ENUMERATOR(cbname)\nUse `NAN_PROPERTY_ENUMERATOR` to declare your V8 accessible property enumerators. You get an appropriately typed `args` object like the `args` argument to a `NAN_PROPERTY_GETTER` call.\n\nYou can use `NanReturnNull()`, `NanReturnEmptyString()`, `NanReturnUndefined()` and `NanReturnValue()` in a `NAN_PROPERTY_ENUMERATOR`.\n\n<a name="api_nan_property_deleter"></a>\n### NAN_PROPERTY_DELETER(cbname)\nUse `NAN_PROPERTY_DELETER` to declare your V8 accessible property deleters. Same as `NAN_PROPERTY_GETTER`.\n\nYou can use `NanReturnNull()`, `NanReturnEmptyString()`, `NanReturnUndefined()` and `NanReturnValue()` in a `NAN_PROPERTY_DELETER`.\n\n<a name="api_nan_property_query"></a>\n### NAN_PROPERTY_QUERY(cbname)\nUse `NAN_PROPERTY_QUERY` to declare your V8 accessible property queries. Same as `NAN_PROPERTY_GETTER`.\n\nYou can use `NanReturnNull()`, `NanReturnEmptyString()`, `NanReturnUndefined()` and `NanReturnValue()` in a `NAN_PROPERTY_QUERY`.\n\n<a name="api_nan_weak_callback"></a>\n### NAN_WEAK_CALLBACK(type, cbname)\n\nUse `NAN_WEAK_CALLBACK` to declare your V8 WeakReference callbacks. There is an object argument accessible through `NAN_WEAK_CALLBACK_OBJECT`. The `type` argument gives the type of the `data` argument, accessible through `NAN_WEAK_CALLBACK_DATA(type)`.\n\n```c++\nstatic NAN_WEAK_CALLBACK(BufferReference*, WeakCheck) {\n  if (NAN_WEAK_CALLBACK_DATA(BufferReference*)->noLongerNeeded_) {\n    delete NAN_WEAK_CALLBACK_DATA(BufferReference*);\n  } else {\n    // Still in use, revive, prevent GC\n    NanMakeWeak(NAN_WEAK_CALLBACK_OBJECT, NAN_WEAK_CALLBACK_DATA(BufferReference*), &WeakCheck);\n  }\n}\n```\n\n<a name="api_nan_deprecated"></a>\n### NAN_DEPRECATED(declarator)\nDeclares a function as deprecated. Identical to `V8_DEPRECATED`.\n\n```c++\nstatic NAN_DEPRECATED(NAN_METHOD(foo)) {\n  ...\n}\n```\n\n<a name="api_nan_inline"></a>\n### NAN_INLINE(declarator)\nInlines a function. Identical to `V8_INLINE`.\n\n```c++\nstatic NAN_INLINE(int foo(int bar)) {\n  ...\n}\n```\n\n<a name="api_nan_return_value"></a>\n### NanReturnValue(Handle&lt;Value&gt;)\n\nUse `NanReturnValue` when you want to return a value from your V8 accessible method:\n\n```c++\nNAN_METHOD(Foo::Bar) {\n  ...\n\n  NanReturnValue(String::New("FooBar!"));\n}\n```\n\nNo `return` statement required.\n\n<a name="api_nan_return_undefined"></a>\n### NanReturnUndefined()\n\nUse `NanReturnUndefined` when you don\'t want to return anything from your V8 accessible method:\n\n```c++\nNAN_METHOD(Foo::Baz) {\n  ...\n\n  NanReturnUndefined();\n}\n```\n\n<a name="api_nan_return_null"></a>\n### NanReturnNull()\n\nUse `NanReturnNull` when you want to return `Null` from your V8 accessible method:\n\n```c++\nNAN_METHOD(Foo::Baz) {\n  ...\n\n  NanReturnNull();\n}\n```\n\n<a name="api_nan_return_empty_string"></a>\n### NanReturnEmptyString()\n\nUse `NanReturnEmptyString` when you want to return an empty `String` from your V8 accessible method:\n\n```c++\nNAN_METHOD(Foo::Baz) {\n  ...\n\n  NanReturnEmptyString();\n}\n```\n\n<a name="api_nan_scope"></a>\n### NanScope()\n\nThe introduction of `isolate` references for many V8 calls in Node 0.11 makes `NanScope()` necessary, use it in place of `HandleScope scope`:\n\n```c++\nNAN_METHOD(Foo::Bar) {\n  NanScope();\n\n  NanReturnValue(String::New("FooBar!"));\n}\n```\n\n<a name="api_nan_locker"></a>\n### NanLocker()\n\nThe introduction of `isolate` references for many V8 calls in Node 0.11 makes `NanLocker()` necessary, use it in place of `Locker locker`:\n\n```c++\nNAN_METHOD(Foo::Bar) {\n  NanLocker();\n  ...\n  NanUnlocker();\n}\n```\n\n<a name="api_nan_unlocker"></a>\n### NanUnlocker()\n\nThe introduction of `isolate` references for many V8 calls in Node 0.11 makes `NanUnlocker()` necessary, use it in place of `Unlocker unlocker`:\n\n```c++\nNAN_METHOD(Foo::Bar) {\n  NanLocker();\n  ...\n  NanUnlocker();\n}\n```\n\n<a name="api_nan_get_internal_field_pointer"></a>\n### void * NanGetInternalFieldPointer(Handle&lt;Object&gt;, int)\n\nGets a pointer to the internal field with at `index` from a V8 `Object` handle.\n\n```c++\nLocal<Object> obj;\n...\nNanGetInternalFieldPointer(obj, 0);\n```\n<a name="api_nan_set_internal_field_pointer"></a>\n### void NanSetInternalFieldPointer(Handle&lt;Object&gt;, int, void *)\n\nSets the value of the internal field at `index` on a V8 `Object` handle.\n\n```c++\nstatic Persistent<Function> dataWrapperCtor;\n...\nLocal<Object> wrapper = NanPersistentToLocal(dataWrapperCtor)->NewInstance();\nNanSetInternalFieldPointer(wrapper, 0, this);\n```\n\n<a name="api_nan_object_wrap_handle"></a>\n### Local&lt;Object&gt; NanObjectWrapHandle(Object)\n\nWhen you want to fetch the V8 object handle from a native object you\'ve wrapped with Node\'s `ObjectWrap`, you should use `NanObjectWrapHandle`:\n\n```c++\nNanObjectWrapHandle(iterator)->Get(String::NewSymbol("end"))\n```\n\n<a name="api_nan_make_weak"></a>\n### NanMakeWeak(Persistent&lt;T&gt;, parameter, callback)\n\nMake a persistent reference weak.\n\n<a name="api_nan_symbol"></a>\n### String NanSymbol(char *)\n\nThis isn\'t strictly about compatibility, it\'s just an easier way to create string symbol objects (i.e. `String::NewSymbol(x)`), for getting and setting object properties, or names of objects.\n\n```c++\nbool foo = false;\nif (obj->Has(NanSymbol("foo")))\n  foo = optionsObj->Get(NanSymbol("foo"))->BooleanValue()\n```\n\n<a name="api_nan_get_pointer_safe"></a>\n### Type NanGetPointerSafe(Type *[, Type])\n\nA helper for getting values from optional pointers. If the pointer is `NULL`, the function returns the optional default value, which defaults to `0`.  Otherwise, the function returns the value the pointer points to.\n\n```c++\nchar *plugh(uint32_t *optional) {\n  char res[] = "xyzzy";\n  uint32_t param = NanGetPointerSafe<uint32_t>(optional, 0x1337);\n  switch (param) {\n    ...\n  }\n  NanSetPointerSafe<uint32_t>(optional, 0xDEADBEEF);\n}  \n```\n\n<a name="api_nan_set_pointer_safe"></a>\n### bool NanSetPointerSafe(Type *, Type)\n\nA helper for setting optional argument pointers. If the pointer is `NULL`, the function simply return `false`.  Otherwise, the value is assigned to the variable the pointer points to.\n\n```c++\nconst char *plugh(size_t *outputsize) {\n  char res[] = "xyzzy";\n  if !(NanSetPointerSafe<size_t>(outputsize, strlen(res) + 1)) {\n    ...\n  }\n\n  ...\n}\n```\n\n<a name="api_nan_from_v8_string"></a>\n### char* NanFromV8String(Handle&lt;Value&gt;[, enum Nan::Encoding, size_t *, char *, size_t, int])\n\nWhen you want to convert a V8 `String` to a `char*` use `NanFromV8String`. It is possible to define an encoding that defaults to `Nan::UTF8` as well as a pointer to a variable that will be assigned the number of bytes in the returned string. It is also possible to supply a buffer and its length to the function in order not to have a new buffer allocated. The final argument allows optionally setting `String::WriteOptions`, which default to `String::HINT_MANY_WRITES_EXPECTED | String::NO_NULL_TERMINATION`.\nJust remember that you\'ll end up with an object that you\'ll need to `delete[]` at some point unless you supply your own buffer:\n\n```c++\nsize_t count;\nchar* name = NanFromV8String(args[0]);\nchar* decoded = NanFromV8String(args[1], Nan::BASE64, &count, NULL, 0, String::HINT_MANY_WRITES_EXPECTED);\nchar param_copy[count];\nmemcpy(param_copy, decoded, count);\ndelete[] decoded;\n```\n\n<a name="api_nan_boolean_option_value"></a>\n### bool NanBooleanOptionValue(Handle&lt;Value&gt;, Handle&lt;String&gt;[, bool])\n\nWhen you have an "options" object that you need to fetch properties from, boolean options can be fetched with this pair. They check first if the object exists (`IsEmpty`), then if the object has the given property (`Has`) then they get and convert/coerce the property to a `bool`.\n\nThe optional last parameter is the *default* value, which is `false` if left off:\n\n```c++\n// `foo` is false unless the user supplies a truthy value for it\nbool foo = NanBooleanOptionValue(optionsObj, NanSymbol("foo"));\n// `bar` is true unless the user supplies a falsy value for it\nbool bar = NanBooleanOptionValueDefTrue(optionsObj, NanSymbol("bar"), true);\n```\n\n<a name="api_nan_uint32_option_value"></a>\n### uint32_t NanUInt32OptionValue(Handle&lt;Value&gt;, Handle&lt;String&gt;, uint32_t)\n\nSimilar to `NanBooleanOptionValue`, use `NanUInt32OptionValue` to fetch an integer option from your options object. Can be any kind of JavaScript `Number` and it will be coerced to an unsigned 32-bit integer.\n\nRequires all 3 arguments as a default is not optional:\n\n```c++\nuint32_t count = NanUInt32OptionValue(optionsObj, NanSymbol("count"), 1024);\n```\n\n<a name="api_nan_error"></a>\n### NanError(message), NanTypeError(message), NanRangeError(message)\n\nFor making `Error`, `TypeError` and `RangeError` objects.\n\n```c++\nLocal<Value> res = NanError("you must supply a callback argument");\n```\n\n<a name="api_nan_throw_error"></a>\n### NanThrowError(message), NanThrowTypeError(message), NanThrowRangeError(message), NanThrowError(Local&lt;Value&gt;), NanThrowError(Local&lt;Value&gt;, int)\n\nFor throwing `Error`, `TypeError` and `RangeError` objects. You should `return` this call:\n\n```c++\nreturn NanThrowError("you must supply a callback argument");\n```\n\nCan also handle any custom object you may want to throw. If used with the error code argument, it will add the supplied error code to the error object as a property called `code`.\n\n<a name="api_nan_new_buffer_handle"></a>\n### Local&lt;Object&gt; NanNewBufferHandle(char *, uint32_t), Local&lt;Object&gt; NanNewBufferHandle(uint32_t)\n\nThe `Buffer` API has changed a little in Node 0.11, this helper provides consistent access to `Buffer` creation:\n\n```c++\nNanNewBufferHandle((char*)value.data(), value.size());\n```\n\nCan also be used to initialize a `Buffer` with just a `size` argument.\n\nCan also be supplied with a `NAN_WEAK_CALLBACK` and a hint for the garbage collector, when dealing with weak references.\n\n<a name="api_nan_buffer_use"></a>\n### Local&lt;Object&gt; NanBufferUse(char*, uint32_t)\n\n`Buffer::New(char*, uint32_t)` prior to 0.11 would make a copy of the data.\nWhile it was possible to get around this, it required a shim by passing a\ncallback. So the new API `Buffer::Use(char*, uint32_t)` was introduced to remove\nneeding to use this shim.\n\n`NanBufferUse` uses the `char*` passed as the backing data, and will free the\nmemory automatically when the weak callback is called. Keep this in mind, as\ncareless use can lead to "double free or corruption" and other cryptic failures.\n\n<a name="api_nan_has_instance"></a>\n### bool NanHasInstance(Persistent&lt;FunctionTemplate&gt;&, Handle&lt;Value&gt;)\n\nCan be used to check the type of an object to determine it is of a particular class you have already defined and have a `Persistent<FunctionTemplate>` handle for.\n\n<a name="api_nan_persistent_to_local"></a>\n### Local&lt;Type&gt; NanPersistentToLocal(Persistent&lt;Type&gt;&)\n\nAside from `FunctionCallbackInfo`, the biggest and most painful change to V8 in Node 0.11 is the many restrictions now placed on `Persistent` handles. They are difficult to assign and difficult to fetch the original value out of.\n\nUse `NanPersistentToLocal` to convert a `Persistent` handle back to a `Local` handle.\n\n```c++\nLocal<Object> handle = NanPersistentToLocal(persistentHandle);\n```\n\n<a href="#api_nan_new_context_handle">\n### Local&lt;Context&gt; NanNewContextHandle([ExtensionConfiguration*, Handle&lt;ObjectTemplate&gt;, Handle&lt;Value&gt;])\nCreates a new `Local<Context>` handle.\n\n```c++\nLocal<FunctionTemplate> ftmpl = FunctionTemplate::New();\nLocal<ObjectTemplate> otmpl = ftmpl->InstanceTemplate();\nLocal<Context> ctx =  NanNewContextHandle(NULL, otmpl);\n```\n\n<a name="api_nan_dispose"></a>\n### void NanDispose(Persistent&lt;T&gt; &)\n\nUse `NanDispose` to dispose a `Persistent` handle.\n\n```c++\nNanDispose(persistentHandle);\n```\n\n<a name="api_nan_assign_persistent"></a>\n### NanAssignPersistent(type, handle, object)\n\nUse `NanAssignPersistent` to assign a non-`Persistent` handle to a `Persistent` one. You can no longer just declare a `Persistent` handle and assign directly to it later, you have to `Reset` it in Node 0.11, so this makes it easier.\n\nIn general it is now better to place anything you want to protect from V8\'s garbage collector as properties of a generic `Object` and then assign that to a `Persistent`. This works in older versions of Node also if you use `NanAssignPersistent`:\n\n```c++\nPersistent<Object> persistentHandle;\n\n...\n\nLocal<Object> obj = Object::New();\nobj->Set(NanSymbol("key"), keyHandle); // where keyHandle might be a Local<String>\nNanAssignPersistent(Object, persistentHandle, obj)\n```\n\n<a name="api_nan_init_persistent"></a>\n### NanInitPersistent(type, name, object)\n\nUser `NanInitPersistent` to declare and initialize a new `Persistent` with the supplied object. The assignment operator for `Persistent` is no longer public in Node 0.11, so this macro makes it easier to declare and initializing a new `Persistent`. See <a href="#api_nan_assign_persistent"><b><code>NanAssignPersistent</code></b></a> for more information.\n\n```c++\nLocal<Object> obj = Object::New();\nobj->Set(NanSymbol("key"), keyHandle); // where keyHandle might be a Local<String>\nNanInitPersistent(Object, persistentHandle, obj);\n```\n\n<a name="api_nan_callback"></a>\n### NanCallback\n\nBecause of the difficulties imposed by the changes to `Persistent` handles in V8 in Node 0.11, creating `Persistent` versions of your `Local<Function>` handles is annoyingly tricky. `NanCallback` makes it easier by taking your `Local` handle, making it persistent until the `NanCallback` is deleted and even providing a handy `Call()` method to fetch and execute the callback `Function`.\n\n```c++\nLocal<Function> callbackHandle = callback = args[0].As<Function>();\nNanCallback *callback = new NanCallback(callbackHandle);\n// pass `callback` around and it\'s safe from GC until you:\ndelete callback;\n```\n\nYou can execute the callback like so:\n\n```c++\n// no arguments:\ncallback->Call(0, NULL);\n\n// an error argument:\nLocal<Value> argv[] = {\n  Exception::Error(String::New("fail!"))\n};\ncallback->Call(1, argv);\n\n// a success argument:\nLocal<Value> argv[] = {\n  Local<Value>::New(Null()),\n  String::New("w00t!")\n};\ncallback->Call(2, argv);\n```\n\n`NanCallback` also has a `Local<Function> GetCallback()` method that you can use to fetch a local handle to the underlying callback function if you need it.\n\n<a name="api_nan_async_worker"></a>\n### NanAsyncWorker\n\n`NanAsyncWorker` is an abstract class that you can subclass to have much of the annoying async queuing and handling taken care of for you. It can even store arbitrary V8 objects for you and have them persist while the async work is in progress.\n\nSee a rough outline of the implementation:\n\n```c++\nclass NanAsyncWorker {\npublic:\n  NanAsyncWorker (NanCallback *callback);\n\n  // Clean up persistent handles and delete the *callback\n  virtual ~NanAsyncWorker ();\n\n  // Check the `char *errmsg` property and call HandleOKCallback()\n  // or HandleErrorCallback depending on whether it has been set or not\n  virtual void WorkComplete ();\n\n  // You must implement this to do some async work. If there is an\n  // error then allocate `errmsg` to to a message and the callback will\n  // be passed that string in an Error object\n  virtual void Execute ();\n\nprotected:\n  // Set this if there is an error, otherwise it\'s NULL\n  const char *errmsg;\n\n  // Save a V8 object in a Persistent handle to protect it from GC\n  void SavePersistent(const char *key, Local<Object> &obj);\n\n  // Fetch a stored V8 object (don\'t call from within `Execute()`)\n  Local<Object> GetFromPersistent(const char *key);\n\n  // Default implementation calls the callback function with no arguments.\n  // Override this to return meaningful data\n  virtual void HandleOKCallback ();\n\n  // Default implementation calls the callback function with an Error object\n  // wrapping the `errmsg` string\n  virtual void HandleErrorCallback ();\n};\n```\n\n<a name="api_nan_async_queue_worker"></a>\n### NanAsyncQueueWorker(NanAsyncWorker *)\n\n`NanAsyncQueueWorker` will run a `NanAsyncWorker` asynchronously via libuv. Both the *execute* and *after_work* steps are taken care of for you&mdash;most of the logic for this is embedded in `NanAsyncWorker`.\n\n### Contributors\n\nNAN is only possible due to the excellent work of the following contributors:\n\n<table><tbody>\n<tr><th align="left">Rod Vagg</th><td><a href="https://github.com/rvagg">GitHub/rvagg</a></td><td><a href="http://twitter.com/rvagg">Twitter/@rvagg</a></td></tr>\n<tr><th align="left">Benjamin Byholm</th><td><a href="https://github.com/kkoopa/">GitHub/kkoopa</a></td></tr>\n<tr><th align="left">Trevor Norris</th><td><a href="https://github.com/trevnorris">GitHub/trevnorris</a></td><td><a href="http://twitter.com/trevnorris">Twitter/@trevnorris</a></td></tr>\n</tbody></table>\n\nLicence &amp; copyright\n-----------------------\n\nCopyright (c) 2013 NAN contributors (listed above).\n\nNative Abstractions for Node.js is licensed under an MIT +no-false-attribs license. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE file for more details.\n',
+260 silly resolved     readmeFilename: 'README.md',
+260 silly resolved     bugs: { url: 'https://github.com/rvagg/nan/issues' },
+260 silly resolved     homepage: 'https://github.com/rvagg/nan',
+260 silly resolved     _id: 'nan@0.4.4',
+260 silly resolved     _shasum: '9db58eae63cee119807a0d01afd0655d956bea75',
+260 silly resolved     _from: 'nan@~0.4.1',
+260 silly resolved     _resolved: 'https://registry.npmjs.org/nan/-/nan-0.4.4.tgz' } ]
+261 info install nan@0.4.4 into /usr/lib/node_modules/canvas
+262 info installOne nan@0.4.4
+263 info /usr/lib/node_modules/canvas/node_modules/nan unbuild
+264 verbose tar unpack /home/kunal15595/.npm/nan/0.4.4/package.tgz
+265 silly lockFile 276fbaa3--modules-canvas-node-modules-nan tar:///usr/lib/node_modules/canvas/node_modules/nan
+266 verbose lock tar:///usr/lib/node_modules/canvas/node_modules/nan /home/kunal15595/.npm/276fbaa3--modules-canvas-node-modules-nan.lock
+267 silly lockFile 7ac014c3-l15595-npm-nan-0-4-4-package-tgz tar:///home/kunal15595/.npm/nan/0.4.4/package.tgz
+268 verbose lock tar:///home/kunal15595/.npm/nan/0.4.4/package.tgz /home/kunal15595/.npm/7ac014c3-l15595-npm-nan-0-4-4-package-tgz.lock
+269 silly gunzTarPerm modes [ '755', '644' ]
+270 silly gunzTarPerm extractEntry package.json
+271 silly gunzTarPerm extractEntry README.md
+272 silly gunzTarPerm extractEntry LICENSE
+273 silly gunzTarPerm extractEntry .index.js
+274 silly gunzTarPerm extractEntry nan.h
+275 silly lockFile 276fbaa3--modules-canvas-node-modules-nan tar:///usr/lib/node_modules/canvas/node_modules/nan
+276 silly lockFile 276fbaa3--modules-canvas-node-modules-nan tar:///usr/lib/node_modules/canvas/node_modules/nan
+277 silly lockFile 7ac014c3-l15595-npm-nan-0-4-4-package-tgz tar:///home/kunal15595/.npm/nan/0.4.4/package.tgz
+278 silly lockFile 7ac014c3-l15595-npm-nan-0-4-4-package-tgz tar:///home/kunal15595/.npm/nan/0.4.4/package.tgz
+279 info preinstall nan@0.4.4
+280 verbose readDependencies using package.json deps
+281 verbose readDependencies using package.json deps
+282 silly resolved []
+283 verbose about to build /usr/lib/node_modules/canvas/node_modules/nan
+284 info build /usr/lib/node_modules/canvas/node_modules/nan
+285 verbose linkStuff [ true,
+285 verbose linkStuff   '/usr/lib/node_modules',
+285 verbose linkStuff   false,
+285 verbose linkStuff   '/usr/lib/node_modules/canvas/node_modules' ]
+286 info linkStuff nan@0.4.4
+287 verbose linkBins nan@0.4.4
+288 verbose linkMans nan@0.4.4
+289 verbose rebuildBundles nan@0.4.4
+290 info install nan@0.4.4
+291 info postinstall nan@0.4.4
+292 verbose about to build /usr/lib/node_modules/canvas
+293 info build /usr/lib/node_modules/canvas
+294 verbose linkStuff [ true, '/usr/lib/node_modules', true, '/usr/lib/node_modules' ]
+295 info linkStuff canvas@1.1.3
+296 verbose linkBins canvas@1.1.3
+297 verbose linkMans canvas@1.1.3
+298 verbose rebuildBundles canvas@1.1.3
+299 verbose rebuildBundles [ 'nan' ]
+300 info install canvas@1.1.3
+301 verbose unsafe-perm in lifecycle false
+302 http 304 https://registry.npmjs.org/xmldom
+303 silly registry.get cb [ 304,
+303 silly registry.get   { date: 'Mon, 19 May 2014 21:50:44 GMT',
+303 silly registry.get     server: 'Apache',
+303 silly registry.get     via: '1.1 varnish',
+303 silly registry.get     'last-modified': 'Mon, 19 May 2014 21:50:44 GMT',
+303 silly registry.get     'cache-control': 'max-age=1',
+303 silly registry.get     etag: '"5P5HSHF5Y5IRCBO2E8J7B8TJ2"',
+303 silly registry.get     'x-served-by': 'cache-sv95-SJC3',
+303 silly registry.get     'x-cache': 'HIT',
+303 silly registry.get     'x-cache-hits': '1',
+303 silly registry.get     'x-timer': 'S1400536244.351471663,VS0,VE75',
+303 silly registry.get     vary: 'Accept',
+303 silly registry.get     'content-length': '0',
+303 silly registry.get     'keep-alive': 'timeout=10, max=50',
+303 silly registry.get     connection: 'Keep-Alive' } ]
+304 verbose etag xmldom from cache
+305 silly addNameRange number 2 { name: 'xmldom', range: '>=0.1.0-0 <0.2.0-0', hasData: true }
+306 silly addNameRange versions [ 'xmldom',
+306 silly addNameRange   [ '0.1.0',
+306 silly addNameRange     '0.1.1',
+306 silly addNameRange     '0.1.2',
+306 silly addNameRange     '0.1.3',
+306 silly addNameRange     '0.1.4',
+306 silly addNameRange     '0.1.5',
+306 silly addNameRange     '0.1.6',
+306 silly addNameRange     '0.1.7',
+306 silly addNameRange     '0.1.8',
+306 silly addNameRange     '0.1.9',
+306 silly addNameRange     '0.1.10',
+306 silly addNameRange     '0.1.11',
+306 silly addNameRange     '0.1.12',
+306 silly addNameRange     '0.1.13',
+306 silly addNameRange     '0.1.14',
+306 silly addNameRange     '0.1.15',
+306 silly addNameRange     '0.1.16',
+306 silly addNameRange     '0.1.17',
+306 silly addNameRange     '0.1.18',
+306 silly addNameRange     '0.1.19' ] ]
+307 verbose addNamed [ 'xmldom', '0.1.19' ]
+308 verbose addNamed [ '0.1.19', '0.1.19' ]
+309 silly lockFile 9cc0a14e-xmldom-0-1-19 xmldom@0.1.19
+310 verbose lock xmldom@0.1.19 /home/kunal15595/.npm/9cc0a14e-xmldom-0-1-19.lock
+311 silly lockFile 9cc0a14e-xmldom-0-1-19 xmldom@0.1.19
+312 silly lockFile 9cc0a14e-xmldom-0-1-19 xmldom@0.1.19
+313 silly lockFile ec5b92b1-xmldom-0-1-x xmldom@0.1.x
+314 silly lockFile ec5b92b1-xmldom-0-1-x xmldom@0.1.x
+315 http 304 https://registry.npmjs.org/jsdom
+316 silly registry.get cb [ 304,
+316 silly registry.get   { date: 'Mon, 19 May 2014 21:50:44 GMT',
+316 silly registry.get     server: 'Apache',
+316 silly registry.get     via: '1.1 varnish',
+316 silly registry.get     'last-modified': 'Mon, 19 May 2014 21:50:44 GMT',
+316 silly registry.get     'cache-control': 'max-age=1',
+316 silly registry.get     etag: '"CYNV5LN25E9W1N878HB017SPS"',
+316 silly registry.get     'x-served-by': 'cache-sv95-SJC3',
+316 silly registry.get     'x-cache': 'HIT',
+316 silly registry.get     'x-cache-hits': '1',
+316 silly registry.get     'x-timer': 'S1400536244.452509403,VS0,VE86',
+316 silly registry.get     vary: 'Accept',
+316 silly registry.get     'content-length': '0',
+316 silly registry.get     'keep-alive': 'timeout=10, max=50',
+316 silly registry.get     connection: 'Keep-Alive' } ]
+317 verbose etag jsdom from cache
+318 silly addNameRange number 2 { name: 'jsdom', range: '>=0.8.0-0 <0.9.0-0', hasData: true }
+319 silly addNameRange versions [ 'jsdom',
+319 silly addNameRange   [ '0.0.1',
+319 silly addNameRange     '0.1.2',
+319 silly addNameRange     '0.1.4',
+319 silly addNameRange     '0.1.5',
+319 silly addNameRange     '0.1.6',
+319 silly addNameRange     '0.1.7',
+319 silly addNameRange     '0.1.8',
+319 silly addNameRange     '0.1.9',
+319 silly addNameRange     '0.1.10',
+319 silly addNameRange     '0.1.11',
+319 silly addNameRange     '0.1.12',
+319 silly addNameRange     '0.1.13',
+319 silly addNameRange     '0.1.15',
+319 silly addNameRange     '0.1.16',
+319 silly addNameRange     '0.1.17',
+319 silly addNameRange     '0.1.18',
+319 silly addNameRange     '0.1.19',
+319 silly addNameRange     '0.1.20',
+319 silly addNameRange     '0.1.21',
+319 silly addNameRange     '0.1.22',
+319 silly addNameRange     '0.1.23',
+319 silly addNameRange     '0.2.0',
+319 silly addNameRange     '0.2.1',
+319 silly addNameRange     '0.2.2',
+319 silly addNameRange     '0.2.3',
+319 silly addNameRange     '0.2.4',
+319 silly addNameRange     '0.2.5',
+319 silly addNameRange     '0.2.6',
+319 silly addNameRange     '0.2.7',
+319 silly addNameRange     '0.2.8',
+319 silly addNameRange     '0.2.9',
+319 silly addNameRange     '0.2.10',
+319 silly addNameRange     '0.2.11',
+319 silly addNameRange     '0.2.12',
+319 silly addNameRange     '0.2.13',
+319 silly addNameRange     '0.2.14',
+319 silly addNameRange     '0.2.15',
+319 silly addNameRange     '0.2.16',
+319 silly addNameRange     '0.2.17',
+319 silly addNameRange     '0.2.18',
+319 silly addNameRange     '0.2.19',
+319 silly addNameRange     '0.3.0',
+319 silly addNameRange     '0.3.1',
+319 silly addNameRange     '0.3.2',
+319 silly addNameRange     '0.3.3',
+319 silly addNameRange     '0.3.4',
+319 silly addNameRange     '0.4.0',
+319 silly addNameRange     '0.4.1',
+319 silly addNameRange     '0.4.2',
+319 silly addNameRange     '0.5.0',
+319 silly addNameRange     '0.5.1',
+319 silly addNameRange     '0.5.2',
+319 silly addNameRange     '0.5.3',
+319 silly addNameRange     '0.5.4',
+319 silly addNameRange     '0.5.5',
+319 silly addNameRange     '0.5.6',
+319 silly addNameRange     '0.5.7',
+319 silly addNameRange     '0.6.0',
+319 silly addNameRange     '0.6.1',
+319 silly addNameRange     '0.6.2',
+319 silly addNameRange     '0.6.3',
+319 silly addNameRange     '0.6.4',
+319 silly addNameRange     '0.6.5',
+319 silly addNameRange     '0.7.0',
+319 silly addNameRange     '0.8.0',
+319 silly addNameRange     '0.8.1',
+319 silly addNameRange     '0.8.2',
+319 silly addNameRange     '0.8.3',
+319 silly addNameRange     '0.8.4',
+319 silly addNameRange     '0.8.5',
+319 silly addNameRange     '0.8.6',
+319 silly addNameRange     '0.8.7',
+319 silly addNameRange     '0.8.8',
+319 silly addNameRange     '0.8.9',
+319 silly addNameRange     '0.8.10',
+319 silly addNameRange     '0.8.11',
+319 silly addNameRange     '0.9.0',
+319 silly addNameRange     '0.10.0',
+319 silly addNameRange     '0.10.1',
+319 silly addNameRange     '0.10.2',
+319 silly addNameRange     '0.10.3',
+319 silly addNameRange     '0.10.4',
+319 silly addNameRange     '0.10.5' ] ]
+320 verbose addNamed [ 'jsdom', '0.8.11' ]
+321 verbose addNamed [ '0.8.11', '0.8.11' ]
+322 silly lockFile 8d7847b7-jsdom-0-8-11 jsdom@0.8.11
+323 verbose lock jsdom@0.8.11 /home/kunal15595/.npm/8d7847b7-jsdom-0-8-11.lock
+324 silly lockFile 8d7847b7-jsdom-0-8-11 jsdom@0.8.11
+325 silly lockFile 8d7847b7-jsdom-0-8-11 jsdom@0.8.11
+326 silly lockFile dba6d1f7-jsdom-0-8-x jsdom@0.8.x
+327 silly lockFile dba6d1f7-jsdom-0-8-x jsdom@0.8.x
+328 silly resolved [ { name: 'xmldom',
+328 silly resolved     version: '0.1.19',
+328 silly resolved     description: 'A W3C Standard XML DOM(Level2 CORE) implementation and parser(DOMParser/XMLSerializer).',
+328 silly resolved     keywords:
+328 silly resolved      [ 'w3c',
+328 silly resolved        'dom',
+328 silly resolved        'xml',
+328 silly resolved        'parser',
+328 silly resolved        'javascript',
+328 silly resolved        'DOMParser',
+328 silly resolved        'XMLSerializer' ],
+328 silly resolved     author:
+328 silly resolved      { name: 'jindw',
+328 silly resolved        email: 'jindw@xidea.org',
+328 silly resolved        url: 'http://www.xidea.org' },
+328 silly resolved     homepage: 'https://github.com/jindw/xmldom',
+328 silly resolved     repository: { type: 'git', url: 'git://github.com/jindw/xmldom.git' },
+328 silly resolved     main: './dom-parser.js',
+328 silly resolved     scripts: { test: 'proof platform win32 && proof test */*/*.t.js || t/test' },
+328 silly resolved     engines: { node: '>=0.1' },
+328 silly resolved     dependencies: {},
+328 silly resolved     devDependencies: { proof: '0.0.28' },
+328 silly resolved     maintainers: [ [Object] ],
+328 silly resolved     contributors: [ [Object], [Object], [Object] ],
+328 silly resolved     bugs:
+328 silly resolved      { url: 'http://github.com/jindw/xmldom/issues',
+328 silly resolved        email: 'jindw@xidea.org' },
+328 silly resolved     licenses: [ [Object] ],
+328 silly resolved     readme: '# XMLDOM [![Build Status](https://secure.travis-ci.org/bigeasy/xmldom.png?branch=master)](http://travis-ci.org/bigeasy/xmldom) [![Coverage Status](https://coveralls.io/repos/bigeasy/xmldom/badge.png?branch=master)](https://coveralls.io/r/bigeasy/xmldom) [![NPM version](https://badge.fury.io/js/xmldom.png)](http://badge.fury.io/js/xmldom)\n\nA JavaScript implementation of W3C DOM for Node.js, Rhino and the browser. Fully\ncompatible with `W3C DOM level2`; and some compatible with `level3`. Supports\n`DOMParser` and `XMLSerializer` interface such as in browser.\n\nInstall:\n-------\n>npm install xmldom\n\nExample:\n====\n```javascript\nvar DOMParser = require(\'xmldom\').DOMParser;\nvar doc = new DOMParser().parseFromString(\n    \'<xml xmlns="a" xmlns:c="./lite">\\n\'+\n        \'\\t<child>test</child>\\n\'+\n        \'\\t<child></child>\\n\'+\n        \'\\t<child/>\\n\'+\n    \'</xml>\'\n    ,\'text/xml\');\ndoc.documentElement.setAttribute(\'x\',\'y\');\ndoc.documentElement.setAttributeNS(\'./lite\',\'c:x\',\'y2\');\nvar nsAttr = doc.documentElement.getAttributeNS(\'./lite\',\'x\')\nconsole.info(nsAttr)\nconsole.info(doc)\n```\nAPI Reference\n=====\n\n * [DOMParser](https://developer.mozilla.org/en/DOMParser):\n\n\t```javascript\n\tparseFromString(xmlsource,mimeType)\n\t```\n\t* **options extension** _by xmldom_(not BOM standard!!)\n\n\t```javascript\n\t//added the options argument\n\tnew DOMParser(options)\n\t\n\t//errorHandler is supported\n\tnew DOMParser({\n\t\t/**\n\t\t * locator is always need for error position info\n\t\t */\n\t\tlocator:{},\n\t\t/**\n\t\t * you can override the errorHandler for xml parser\n\t\t * @link http://www.saxproject.org/apidoc/org/xml/sax/ErrorHandler.html\n\t\t */\n\t\terrorHandler:{warning:function(w){console.warn(w)},error:callback,fatalError:callback}\n\t\t//only callback model\n\t\t//errorHandler:function(level,msg){console.log(level,msg)}\n\t})\n\t\t\n\t```\n\n * [XMLSerializer](https://developer.mozilla.org/en/XMLSerializer)\n \n\t```javascript\n\tserializeToString(node)\n\t```\nDOM level2 method and attribute:\n------\n\n * [Node](http://www.w3.org/TR/2000/REC-DOM-Level-2-Core-20001113/core.html#ID-1950641247)\n\t\n\t\tattribute:\n\t\t\tnodeValue|prefix\n\t\treadonly attribute:\n\t\t\tnodeName|nodeType|parentNode|childNodes|firstChild|lastChild|previousSibling|nextSibling|attributes|ownerDocument|namespaceURI|localName\n\t\tmethod:\t\n\t\t\tinsertBefore(newChild, refChild)\n\t\t\treplaceChild(newChild, oldChild)\n\t\t\tremoveChild(oldChild)\n\t\t\tappendChild(newChild)\n\t\t\thasChildNodes()\n\t\t\tcloneNode(deep)\n\t\t\tnormalize()\n\t\t\tisSupported(feature, version)\n\t\t\thasAttributes()\n\n * [DOMImplementation](http://www.w3.org/TR/2000/REC-DOM-Level-2-Core-20001113/core.html#ID-102161490)\n\t\t\n\t\tmethod:\n\t\t\thasFeature(feature, version)\n\t\t\tcreateDocumentType(qualifiedName, publicId, systemId)\n\t\t\tcreateDocument(namespaceURI, qualifiedName, doctype)\n\n * [Document](http://www.w3.org/TR/2000/REC-DOM-Level-2-Core-20001113/core.html#i-Document) : Node\n\t\t\n\t\treadonly attribute:\n\t\t\tdoctype|implementation|documentElement\n\t\tmethod:\n\t\t\tcreateElement(tagName)\n\t\t\tcreateDocumentFragment()\n\t\t\tcreateTextNode(data)\n\t\t\tcreateComment(data)\n\t\t\tcreateCDATASection(data)\n\t\t\tcreateProcessingInstruction(target, data)\n\t\t\tcreateAttribute(name)\n\t\t\tcreateEntityReference(name)\n\t\t\tgetElementsByTagName(tagname)\n\t\t\timportNode(importedNode, deep)\n\t\t\tcreateElementNS(namespaceURI, qualifiedName)\n\t\t\tcreateAttributeNS(namespaceURI, qualifiedName)\n\t\t\tgetElementsByTagNameNS(namespaceURI, localName)\n\t\t\tgetElementById(elementId)\n\n * [DocumentFragment](http://www.w3.org/TR/2000/REC-DOM-Level-2-Core-20001113/core.html#ID-B63ED1A3) : Node\n * [Element](http://www.w3.org/TR/2000/REC-DOM-Level-2-Core-20001113/core.html#ID-745549614) : Node\n\t\t\n\t\treadonly attribute:\n\t\t\ttagName\n\t\tmethod:\n\t\t\tgetAttribute(name)\n\t\t\tsetAttribute(name, value)\n\t\t\tremoveAttribute(name)\n\t\t\tgetAttributeNode(name)\n\t\t\tsetAttributeNode(newAttr)\n\t\t\tremoveAttributeNode(oldAttr)\n\t\t\tgetElementsByTagName(name)\n\t\t\tgetAttributeNS(namespaceURI, localName)\n\t\t\tsetAttributeNS(namespaceURI, qualifiedName, value)\n\t\t\tremoveAttributeNS(namespaceURI, localName)\n\t\t\tgetAttributeNodeNS(namespaceURI, localName)\n\t\t\tsetAttributeNodeNS(newAttr)\n\t\t\tgetElementsByTagNameNS(namespaceURI, localName)\n\t\t\thasAttribute(name)\n\t\t\thasAttributeNS(namespaceURI, localName)\n\n * [Attr](http://www.w3.org/TR/2000/REC-DOM-Level-2-Core-20001113/core.html#ID-637646024) : Node\n\t\n\t\tattribute:\n\t\t\tvalue\n\t\treadonly attribute:\n\t\t\tname|specified|ownerElement\n\n * [NodeList](http://www.w3.org/TR/2000/REC-DOM-Level-2-Core-20001113/core.html#ID-536297177)\n\t\t\n\t\treadonly attribute:\n\t\t\tlength\n\t\tmethod:\n\t\t\titem(index)\n\t\n * [NamedNodeMap](http://www.w3.org/TR/2000/REC-DOM-Level-2-Core-20001113/core.html#ID-1780488922)\n\n\t\treadonly attribute:\n\t\t\tlength\n\t\tmethod:\n\t\t\tgetNamedItem(name)\n\t\t\tsetNamedItem(arg)\n\t\t\tremoveNamedItem(name)\n\t\t\titem(index)\n\t\t\tgetNamedItemNS(namespaceURI, localName)\n\t\t\tsetNamedItemNS(arg)\n\t\t\tremoveNamedItemNS(namespaceURI, localName)\n\t\t\n * [CharacterData](http://www.w3.org/TR/2000/REC-DOM-Level-2-Core-20001113/core.html#ID-FF21A306) : Node\n\t\n\t\tmethod:\n\t\t\tsubstringData(offset, count)\n\t\t\tappendData(arg)\n\t\t\tinsertData(offset, arg)\n\t\t\tdeleteData(offset, count)\n\t\t\treplaceData(offset, count, arg)\n\t\t\n * [Text](http://www.w3.org/TR/2000/REC-DOM-Level-2-Core-20001113/core.html#ID-1312295772) : CharacterData\n\t\n\t\tmethod:\n\t\t\tsplitText(offset)\n\t\t\t\n * [CDATASection](http://www.w3.org/TR/2000/REC-DOM-Level-2-Core-20001113/core.html#ID-667469212)\n * [Comment](http://www.w3.org/TR/2000/REC-DOM-Level-2-Core-20001113/core.html#ID-1728279322) : CharacterData\n\t\n * [DocumentType](http://www.w3.org/TR/2000/REC-DOM-Level-2-Core-20001113/core.html#ID-412266927)\n\t\n\t\treadonly attribute:\n\t\t\tname|entities|notations|publicId|systemId|internalSubset\n\t\t\t\n * Notation : Node\n\t\n\t\treadonly attribute:\n\t\t\tpublicId|systemId\n\t\t\t\n * Entity : Node\n\t\n\t\treadonly attribute:\n\t\t\tpublicId|systemId|notationName\n\t\t\t\n * EntityReference : Node \n * ProcessingInstruction : Node \n\t\n\t\tattribute:\n\t\t\tdata\n\t\treadonly attribute:\n\t\t\ttarget\n\t\t\nDOM level 3 support:\n-----\n\n * [Node](http://www.w3.org/TR/DOM-Level-3-Core/core.html#Node3-textContent)\n\t\t\n\t\tattribute:\n\t\t\ttextContent\n\t\tmethod:\n\t\t\tisDefaultNamespace(namespaceURI){\n\t\t\tlookupNamespaceURI(prefix)\n\nDOM extension by xmldom\n---\n * [Node] Source position extension; \n\t\t\n\t\tattribute:\n\t\t\t//Numbered starting from \'1\'\n\t\t\tlineNumber\n\t\t\t//Numbered starting from \'1\'\n\t\t\tcolumnNumber\n',
+328 silly resolved     readmeFilename: 'readme.md',
+328 silly resolved     _id: 'xmldom@0.1.19',
+328 silly resolved     _shasum: '631fc07776efd84118bf25171b37ed4d075a0abc',
+328 silly resolved     _from: 'xmldom@0.1.x',
+328 silly resolved     _resolved: 'https://registry.npmjs.org/xmldom/-/xmldom-0.1.19.tgz' },
+328 silly resolved   { name: 'jsdom',
+328 silly resolved     version: '0.8.11',
+328 silly resolved     description: 'A JavaScript implementation of the W3C DOM',
+328 silly resolved     keywords: [ 'dom', 'w3c', 'html' ],
+328 silly resolved     maintainers: [ [Object], [Object] ],
+328 silly resolved     contributors:
+328 silly resolved      [ [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object],
+328 silly resolved        [Object] ],
+328 silly resolved     bugs:
+328 silly resolved      { url: 'http://github.com/tmpvar/jsdom/issues',
+328 silly resolved        email: 'tmpvar@gmail.com' },
+328 silly resolved     license:
+328 silly resolved      { type: 'MIT',
+328 silly resolved        url: 'http://github.com/tmpvar/jsdom/blob/master/LICENSE.txt' },
+328 silly resolved     repository: { type: 'git', url: 'git://github.com/tmpvar/jsdom.git' },
+328 silly resolved     implements: [ 'http://www.w3.org/TR/REC-DOM-Level-1' ],
+328 silly resolved     dependencies:
+328 silly resolved      { htmlparser2: '>= 3.1.5 <4',
+328 silly resolved        nwmatcher: '~1.3.1',
+328 silly resolved        request: '2.x',
+328 silly resolved        xmlhttprequest: '>=1.5.0',
+328 silly resolved        cssom: '~0.3.0',
+328 silly resolved        cssstyle: '~0.2.9',
+328 silly resolved        contextify: '~0.1.5' },
+328 silly resolved     devDependencies: { nodeunit: '~0.8.0', optimist: '*', urlmaster: '>=0.2.15' },
+328 silly resolved     scripts: { test: 'node ./test/runner' },
+328 silly resolved     main: './lib/jsdom',
+328 silly resolved     readme: '# jsdom\n\nA JavaScript implementation of the W3C DOM.\n\n## Install\n\n```bash\n$ npm install jsdom\n```\n\nIf this gives you trouble with errors about installing Contextify, especially on Windows, see [below](#contextify).\n\n## Human contact\n\nsee: [mailing list](http://groups.google.com/group/jsdom)\n\n## Easymode\n\nBootstrapping a DOM is generally a difficult process involving many error prone steps. We didn\'t want jsdom to fall into the same trap and that is why a new method, `jsdom.env()`, has been added in jsdom 0.2.0 which should make everyone\'s lives easier.\n\nYou can use it with a URL\n\n```js\n// Count all of the links from the Node.js build page\nvar jsdom = require("jsdom");\n\njsdom.env(\n  "http://nodejs.org/dist/",\n  ["http://code.jquery.com/jquery.js"],\n  function (errors, window) {\n    console.log("there have been", window.$("a").length, "nodejs releases!");\n  }\n);\n```\n\nor with raw HTML\n\n```js\n// Run some jQuery on a html fragment\nvar jsdom = require("jsdom");\n\njsdom.env(\n  \'<p><a class="the-link" href="https://github.com/tmpvar/jsdom">jsdom\\\'s Homepage</a></p>\',\n  ["http://code.jquery.com/jquery.js"],\n  function (errors, window) {\n    console.log("contents of a.the-link:", window.$("a.the-link").text());\n  }\n);\n```\n\nor with a configuration object\n\n```js\n// Print all of the news items on hackernews\nvar jsdom = require("jsdom");\n\njsdom.env({\n  url: "http://news.ycombinator.com/",\n  scripts: ["http://code.jquery.com/jquery.js"],\n  done: function (errors, window) {\n    var $ = window.$;\n    console.log("HN Links");\n    $("td.title:not(:last) a").each(function() {\n      console.log(" -", $(this).text());\n    });\n  }\n});\n```\n\nor with raw JavaScript source\n\n```js\n// Print all of the news items on hackernews\nvar jsdom = require("jsdom");\nvar fs = require("fs");\nvar jquery = fs.readFileSync("./jquery.js", "utf-8");\n\njsdom.env({\n  url: "http://news.ycombinator.com/",\n  src: [jquery],\n  done: function (errors, window) {\n    var $ = window.$;\n    console.log("HN Links");\n    $("td.title:not(:last) a").each(function () {\n      console.log(" -", $(this).text());\n    });\n  }\n});\n```\n\n### How it works\n`jsdom.env` is built for ease of use, which is rare in the world of the DOM! Since the web has some absolutely horrible JavaScript on it, as of jsdom 0.2.0 `jsdom.env` will not process external resources (scripts, images, etc).  If you want to process the JavaScript use one of the methods below (`jsdom.jsdom` or `jsdom.jQueryify`)\n\n```js\njsdom.env(string, [scripts], [config], callback);\n```\n\nThe arguments are:\n\n- `string`: may be a URL, file name, or HTML fragment\n- `scripts`: a string or array of strings, containing file names or URLs that will be inserted as `<script>` tags\n- `config`: see below\n- `callback`: takes two arguments\n  - `error`: either an `Error` object if something failed initializing the window, or an array of error messages from the DOM if there were script errors\n  - `window`: a brand new `window`\n\n_Example:_\n\n```js\njsdom.env(html, function (errors, window) {\n  // free memory associated with the window\n  window.close();\n});\n```\n\nIf you would like to specify a configuration object only:\n\n```js\njsdom.env(config);\n```\n\n- `config.html`: a HTML fragment\n- `config.file`: a file which jsdom will load HTML from; the resulting window\'s `location.href` will be a `file://` URL.\n- `config.url`: sets the resulting window\'s `location.href`; if `config.html` and `config.file` are not provided, jsdom will load HTML from this URL.\n- `config.scripts`: see `scripts` above.\n- `config.src`: an array of JavaScript strings that will be evaluated against the resulting document. Similar to `scripts`, but it accepts JavaScript instead of paths/URLs.\n- `config.jar`: a custom cookie jar, if desired; see [mikeal/request](https://github.com/mikeal/request) documentation.\n- `config.done`: see `callback` above.\n- `config.document`:\n  - `referer`: the new document will have this referer.\n  - `cookie`: manually set a cookie value, e.g. `\'key=value; expires=Wed, Sep 21 2011 12:00:00 GMT; path=/\'`.\n  - `cookieDomain`: a cookie domain for the manually set cookie; defaults to `127.0.0.1`.\n- `config.features` : see `Flexibility` section below. **Note**: the default feature set for jsdom.env does _not_ include fetching remote JavaScript and executing it. This is something that you will need to **carefully** enable yourself.\n\nNote that `config.done` is required, as is one of `config.html`, `config.file`, or `config.url`.\n\n## For the hardcore\n\nIf you want to spawn a document/window and specify all sorts of options this is the section for you. This section covers the `jsdom.jsdom` method:\n\n```js\nvar jsdom = require("jsdom").jsdom;\nvar doc = jsdom(markup, level, options);\nvar window = doc.parentWindow;\n```\n\n- `markup` is an HTML/XML document to be parsed. You can also pass `null` or an undefined value to get a basic document with empty `<head>` and `<body>` tags. Document fragments are also supported (including `""`), and will behave as sanely as possible (e.g. the resulting document will lack the `head`, `body` and `documentElement` properties if the corresponding elements aren\'t included).\n\n- `level` is `null` (which means level3) by default, but you can pass another level if you\'d like.\n\n  ```js\n  var jsdom = require("jsdom");\n  var doc = jsdom.jsdom("<html><body></body></html>", jsdom.level(1, "core"));\n  ```\n\n- `options` See the explanation of the `config` object above.\n\n### Flexibility\n\nOne of the goals of jsdom is to be as minimal and light as possible. This section details how someone can change the behavior of `Document`s on the fly.  These features are baked into the `DOMImplementation` that every `Document` has, and may be tweaked in two ways:\n\n1. When you create a new `Document` using the jsdom builder (`require("jsdom").jsdom()`)\n\n  ```js\n  var jsdom = require("jsdom").jsdom;\n  var doc = jsdom("<html><body></body></html>", null, {\n      features: {\n        FetchExternalResources : ["img"]\n      }\n  });\n  ```\n\n  Do note, that this will only affect the document that is currently being created. All other documents will use the defaults specified below (see: Default Features).\n\n2. Before creating any documents, you can modify the defaults for all future documents:\n\n  ```js\n  require("jsdom").defaultDocumentFeatures = {\n      FetchExternalResources: ["script"],\n      ProcessExternalResources: false\n  };\n  ```\n\n#### Default Features\n\nDefault features are extremely important for jsdom as they lower the configuration requirement and present developers a set of consistent default behaviors. The following sections detail the available features, their defaults, and the values that jsdom uses.\n\n\n`FetchExternalResources`\n\n- _Default_: `["script"]`\n- _Allowed_: `["script", "img", "css", "frame", "iframe", "link"]` or `false`\n\nEnables/disables fetching files over the file system/HTTP.\n\n`ProcessExternalResources`\n\n- _Default_: `["script"]`\n- _Allowed_: `["script"]` or `false`\n\nDisabling this will disable script execution (currently only JavaScript).\n\n`SkipExternalResources`\n\n- _Default_: `false`\n- _Allowed_: `/url to be skipped/` or `false`\n- _Example_: `/http:\\/\\/example.org/js/bad\\.js/`\n\nDo not download and process resources with url matching a regular expression.\n\n### Canvas\n\njsdom includes support for using the [canvas](https://npmjs.org/package/canvas) package to extend any `<canvas>` elements with the canvas API. To make this work, you need to include canvas as a dependency in your project, as a peer of jsdom. If jsdom can find the canvas package, it will use it, but if it\'s not present, then `<canvas>` elements will behave like `<div>`s.\n\n## More Examples\n\n### Creating a document\n\n```js\nvar jsdom = require("jsdom");\nvar doc = new (jsdom.level(1, "core").Document)();\n\nconsole.log(doc.nodeName); // outputs: #document\n```\n\n### Creating a browser-like BOM/DOM/Window\n\n```js\nvar jsdom = require("jsdom").jsdom;\nvar document = jsdom("<html><head></head><body>hello world</body></html>");\nvar window = document.parentWindow;\n\nconsole.log(window.document.innerHTML);\n// output: "<html><head></head><body>hello world</body></html>"\n\nconsole.log(window.innerWidth);\n// output: 1024\n\nconsole.log(typeof window.document.getElementsByClassName);\n// outputs: function\n```\n\n### jQueryify\n\n```js\nvar jsdom = require("jsdom");\nvar window = jsdom.jsdom().parentWindow;\n\njsdom.jQueryify(window, "http://code.jquery.com/jquery.js", function () {\n  window.$("body").append(\'<div class="testing">Hello World, It works</div>\');\n\n  console.log(window.$(".testing").text());\n});\n```\n\n### Passing objects to scripts inside the page\n\n```js\nvar jsdom = require("jsdom").jsdom;\nvar window = jsdom().parentWindow;\n\nwindow.__myObject = { foo: "bar" };\n\nvar scriptEl = window.document.createElement("script");\nscriptEl.src = "anotherScript.js";\nwindow.document.body.appendChild(scriptEl);\n\n// anotherScript.js will have the ability to read `window.__myObject`, even\n// though it originated in Node!\n```\n\n## Test Compliance:\n\n```\n level1/core         535/535      100%\n level1/html         238/238      100%\n level1/svg          527/527      100%\n level2/core         284/284      100%\n level2/html         708/708      100%\n level2/style          15/15      100%\n level2/extra            4/4      100%\n level2/events         24/24      100%\n level3/xpath          93/93      100%\n window/index            7/7      100%\n window/history          5/5      100%\n window/script         10/10      100%\n window/console          2/2      100%\n window/frame          16/16      100%\n sizzle/index          14/14      100%\n jsdom/index           77/77      100%\n jsdom/parsing         11/11      100%\n jsdom/env             25/25      100%\n jsdom/utils           11/11      100%\n jsonp/jsonp             1/1      100%\n browser/css             1/1      100%\n browser/index         34/34      100%\n---------------------------------------\nTOTALS: 0/2642 failed; 100% success\n```\n\n### Running the tests\n\nFirst you\'ll want to `npm install`. To run all the tests, use `npm test`, which just calls `node test/runner`.\n\nUsing `test/runner` directly, you can slice and dice which tests your want to run from different levels. Usage is as follows:\n\n```\ntest/runner --help\nRun the jsdom test suite\n\nOptions:\n-s, --suites     suites that you want to run. ie: -s level1/core,1/html,html [string]\n-f, --fail-fast  stop on the first failed test\n-h, --help       show the help\n-t, --tests      choose the test cases to run. ie: -t jquery\n```\n\n## Contextify\n\n[Contextify](https://npmjs.org/package/contextify) is a dependency of jsdom, used for running `<script>` tags within the\npage. In other words, it allows jsdom, which is run in Node.js, to run strings of JavaScript in an isolated environment\nthat pretends to be a browser environment instead of a server. You can see how this is an important feature.\n\nUnfortunately, doing this kind of magic requires C++. And in Node.js, using C++ from JavaScript means using "native\nmodules." Native modules are compiled at installation time so that they work precisely for your machine; that is, you\ndon\'t download a contextify binary from npm, but instead build one locally after downloading the source from npm.\n\n\nUnfortunately, getting C++ compiled within npm\'s installation system can be tricky, especially for Windows users. Thus,\none of the most common problems with jsdom is trying to use it without the proper compilation tools installed.\nHere\'s what you need to compile Contextify, and thus to install jsdom:\n\n### Windows\n\n* A recent copy of the *x86* version of [Node.js for Windows](http://nodejs.org/download/), *not* the x64 version.\n* A copy of [Visual C++ 2010 Express](http://www.microsoft.com/visualstudio/eng/downloads#d-2010-express).\n* A copy of [Python 2.7](http://www.python.org/download/), installed in the default location of `C:\\Python27`.\n\nThere are some slight modifications to this that can work; for example full versions of Visual Studio usually work, and\nsometimes you can even get an x64 version of Node.js working too. But it\'s tricky, so start with the basics!\n\n### Mac\n\n* XCode needs to be installed\n* "Command line tools for XCode" need to be installed\n* Launch XCode once to accept the license, etc. and ensure it\'s properly installed\n\n### Linux\n\nYou\'ll need various build tools installed, like `make`, Python 2.7, and a compiler toolchain. How to install these will\nbe specific to your distro, if you don\'t already have them.\n',
+328 silly resolved     readmeFilename: 'README.md',
+328 silly resolved     homepage: 'https://github.com/tmpvar/jsdom',
+328 silly resolved     _id: 'jsdom@0.8.11',
+328 silly resolved     _shasum: '2a065f72863ac491137d19bd762ce9be1955527b',
+328 silly resolved     _from: 'jsdom@0.8.x',
+328 silly resolved     _resolved: 'https://registry.npmjs.org/jsdom/-/jsdom-0.8.11.tgz' } ]
+329 info install xmldom@0.1.19 into /usr/lib/node_modules/fabric
+330 info install jsdom@0.8.11 into /usr/lib/node_modules/fabric
+331 info installOne xmldom@0.1.19
+332 info installOne jsdom@0.8.11
+333 info /usr/lib/node_modules/fabric/node_modules/xmldom unbuild
+334 info /usr/lib/node_modules/fabric/node_modules/jsdom unbuild
+335 verbose tar unpack /home/kunal15595/.npm/xmldom/0.1.19/package.tgz
+336 silly lockFile 13208914-dules-fabric-node-modules-xmldom tar:///usr/lib/node_modules/fabric/node_modules/xmldom
+337 verbose lock tar:///usr/lib/node_modules/fabric/node_modules/xmldom /home/kunal15595/.npm/13208914-dules-fabric-node-modules-xmldom.lock
+338 silly lockFile c45569ed-95-npm-xmldom-0-1-19-package-tgz tar:///home/kunal15595/.npm/xmldom/0.1.19/package.tgz
+339 verbose lock tar:///home/kunal15595/.npm/xmldom/0.1.19/package.tgz /home/kunal15595/.npm/c45569ed-95-npm-xmldom-0-1-19-package-tgz.lock
+340 verbose tar unpack /home/kunal15595/.npm/jsdom/0.8.11/package.tgz
+341 silly lockFile 914b5d61-odules-fabric-node-modules-jsdom tar:///usr/lib/node_modules/fabric/node_modules/jsdom
+342 verbose lock tar:///usr/lib/node_modules/fabric/node_modules/jsdom /home/kunal15595/.npm/914b5d61-odules-fabric-node-modules-jsdom.lock
+343 silly lockFile bc0099ac-595-npm-jsdom-0-8-11-package-tgz tar:///home/kunal15595/.npm/jsdom/0.8.11/package.tgz
+344 verbose lock tar:///home/kunal15595/.npm/jsdom/0.8.11/package.tgz /home/kunal15595/.npm/bc0099ac-595-npm-jsdom-0-8-11-package-tgz.lock
+345 silly gunzTarPerm modes [ '755', '644' ]
+346 silly gunzTarPerm modes [ '755', '644' ]
+347 silly gunzTarPerm extractEntry package.json
+348 silly gunzTarPerm extractEntry package.json
+349 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+350 silly gunzTarPerm extractEntry .npmignore
+351 silly gunzTarPerm extractEntry LICENSE
+352 silly gunzTarPerm extractEntry README.md
+353 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+354 silly gunzTarPerm extractEntry lib/jsdom.js
+355 silly gunzTarPerm modified mode [ 'lib/jsdom.js', 438, 420 ]
+356 silly gunzTarPerm extractEntry __package__.js
+357 silly gunzTarPerm extractEntry dom-parser.js
+358 silly gunzTarPerm extractEntry lib/jsdom/utils.js
+359 silly gunzTarPerm modified mode [ 'lib/jsdom/utils.js', 438, 420 ]
+360 silly gunzTarPerm extractEntry lib/jsdom/browser/documentfeatures.js
+361 silly gunzTarPerm modified mode [ 'lib/jsdom/browser/documentfeatures.js', 438, 420 ]
+362 silly gunzTarPerm extractEntry dom.js
+363 silly gunzTarPerm extractEntry sax.js
+364 silly gunzTarPerm extractEntry .travis.yml
+365 silly gunzTarPerm extractEntry component.json
+366 silly gunzTarPerm extractEntry readme.md
+367 silly gunzTarPerm extractEntry lib/jsdom/browser/domtohtml.js
+368 silly gunzTarPerm modified mode [ 'lib/jsdom/browser/domtohtml.js', 438, 420 ]
+369 silly gunzTarPerm extractEntry lib/jsdom/browser/history.js
+370 silly gunzTarPerm modified mode [ 'lib/jsdom/browser/history.js', 438, 420 ]
+371 silly gunzTarPerm extractEntry lib/jsdom/browser/htmlencoding.js
+372 silly gunzTarPerm modified mode [ 'lib/jsdom/browser/htmlencoding.js', 438, 420 ]
+373 silly gunzTarPerm extractEntry lib/jsdom/browser/htmltodom.js
+374 silly gunzTarPerm modified mode [ 'lib/jsdom/browser/htmltodom.js', 438, 420 ]
+375 silly gunzTarPerm extractEntry lib/jsdom/browser/index.js
+376 silly gunzTarPerm modified mode [ 'lib/jsdom/browser/index.js', 438, 420 ]
+377 silly gunzTarPerm extractEntry lib/jsdom/browser/location.js
+378 silly gunzTarPerm modified mode [ 'lib/jsdom/browser/location.js', 438, 420 ]
+379 silly gunzTarPerm extractEntry lib/jsdom/browser/utils.js
+380 silly gunzTarPerm modified mode [ 'lib/jsdom/browser/utils.js', 438, 420 ]
+381 silly gunzTarPerm extractEntry lib/jsdom/level1/core.js
+382 silly gunzTarPerm modified mode [ 'lib/jsdom/level1/core.js', 438, 420 ]
+383 silly gunzTarPerm extractEntry lib/jsdom/level2/core.js
+384 silly gunzTarPerm modified mode [ 'lib/jsdom/level2/core.js', 438, 420 ]
+385 silly gunzTarPerm extractEntry lib/jsdom/level2/events.js
+386 silly gunzTarPerm modified mode [ 'lib/jsdom/level2/events.js', 438, 420 ]
+387 silly gunzTarPerm extractEntry lib/jsdom/level2/html.js
+388 silly gunzTarPerm modified mode [ 'lib/jsdom/level2/html.js', 438, 420 ]
+389 silly gunzTarPerm extractEntry lib/jsdom/level2/index.js
+390 silly gunzTarPerm modified mode [ 'lib/jsdom/level2/index.js', 438, 420 ]
+391 silly gunzTarPerm extractEntry lib/jsdom/level2/style.js
+392 silly gunzTarPerm modified mode [ 'lib/jsdom/level2/style.js', 438, 420 ]
+393 silly lockFile 13208914-dules-fabric-node-modules-xmldom tar:///usr/lib/node_modules/fabric/node_modules/xmldom
+394 silly lockFile 13208914-dules-fabric-node-modules-xmldom tar:///usr/lib/node_modules/fabric/node_modules/xmldom
+395 silly lockFile c45569ed-95-npm-xmldom-0-1-19-package-tgz tar:///home/kunal15595/.npm/xmldom/0.1.19/package.tgz
+396 silly lockFile c45569ed-95-npm-xmldom-0-1-19-package-tgz tar:///home/kunal15595/.npm/xmldom/0.1.19/package.tgz
+397 info preinstall xmldom@0.1.19
+398 verbose readDependencies using package.json deps
+399 silly gunzTarPerm extractEntry lib/jsdom/level2/languages/javascript.js
+400 silly gunzTarPerm modified mode [ 'lib/jsdom/level2/languages/javascript.js', 438, 420 ]
+401 silly gunzTarPerm extractEntry lib/jsdom/level3/core.js
+402 silly gunzTarPerm modified mode [ 'lib/jsdom/level3/core.js', 438, 420 ]
+403 verbose readDependencies using package.json deps
+404 silly resolved []
+405 verbose about to build /usr/lib/node_modules/fabric/node_modules/xmldom
+406 info build /usr/lib/node_modules/fabric/node_modules/xmldom
+407 verbose linkStuff [ true,
+407 verbose linkStuff   '/usr/lib/node_modules',
+407 verbose linkStuff   false,
+407 verbose linkStuff   '/usr/lib/node_modules/fabric/node_modules' ]
+408 info linkStuff xmldom@0.1.19
+409 verbose linkBins xmldom@0.1.19
+410 verbose linkMans xmldom@0.1.19
+411 verbose rebuildBundles xmldom@0.1.19
+412 info install xmldom@0.1.19
+413 info postinstall xmldom@0.1.19
+414 silly gunzTarPerm extractEntry lib/jsdom/level3/events.js
+415 silly gunzTarPerm modified mode [ 'lib/jsdom/level3/events.js', 438, 420 ]
+416 silly gunzTarPerm extractEntry lib/jsdom/level3/html.js
+417 silly gunzTarPerm modified mode [ 'lib/jsdom/level3/html.js', 438, 420 ]
+418 silly gunzTarPerm extractEntry lib/jsdom/level3/index.js
+419 silly gunzTarPerm modified mode [ 'lib/jsdom/level3/index.js', 438, 420 ]
+420 silly gunzTarPerm extractEntry lib/jsdom/level3/ls.js
+421 silly gunzTarPerm modified mode [ 'lib/jsdom/level3/ls.js', 438, 420 ]
+422 silly gunzTarPerm extractEntry lib/jsdom/level3/xpath.js
+423 silly gunzTarPerm modified mode [ 'lib/jsdom/level3/xpath.js', 438, 420 ]
+424 silly gunzTarPerm extractEntry lib/jsdom/selectors/index.js
+425 silly gunzTarPerm modified mode [ 'lib/jsdom/selectors/index.js', 438, 420 ]
+426 silly gunzTarPerm extractEntry LICENSE.txt
+427 silly gunzTarPerm modified mode [ 'LICENSE.txt', 438, 420 ]
+428 silly lockFile 914b5d61-odules-fabric-node-modules-jsdom tar:///usr/lib/node_modules/fabric/node_modules/jsdom
+429 silly lockFile 914b5d61-odules-fabric-node-modules-jsdom tar:///usr/lib/node_modules/fabric/node_modules/jsdom
+430 silly lockFile bc0099ac-595-npm-jsdom-0-8-11-package-tgz tar:///home/kunal15595/.npm/jsdom/0.8.11/package.tgz
+431 silly lockFile bc0099ac-595-npm-jsdom-0-8-11-package-tgz tar:///home/kunal15595/.npm/jsdom/0.8.11/package.tgz
+432 info preinstall jsdom@0.8.11
+433 verbose readDependencies using package.json deps
+434 verbose readDependencies using package.json deps
+435 verbose cache add [ 'htmlparser2@>= 3.1.5 <4', null ]
+436 verbose cache add name=undefined spec="htmlparser2@>= 3.1.5 <4" args=["htmlparser2@>= 3.1.5 <4",null]
+437 verbose parsed url { protocol: null,
+437 verbose parsed url   slashes: null,
+437 verbose parsed url   auth: null,
+437 verbose parsed url   host: null,
+437 verbose parsed url   port: null,
+437 verbose parsed url   hostname: null,
+437 verbose parsed url   hash: null,
+437 verbose parsed url   search: null,
+437 verbose parsed url   query: null,
+437 verbose parsed url   pathname: 'htmlparser2@%3E=%203.1.5%20%3C4',
+437 verbose parsed url   path: 'htmlparser2@%3E=%203.1.5%20%3C4',
+437 verbose parsed url   href: 'htmlparser2@%3E=%203.1.5%20%3C4' }
+438 verbose cache add name="htmlparser2" spec=">= 3.1.5 <4" args=["htmlparser2",">= 3.1.5 <4"]
+439 verbose parsed url { protocol: null,
+439 verbose parsed url   slashes: null,
+439 verbose parsed url   auth: null,
+439 verbose parsed url   host: null,
+439 verbose parsed url   port: null,
+439 verbose parsed url   hostname: null,
+439 verbose parsed url   hash: null,
+439 verbose parsed url   search: null,
+439 verbose parsed url   query: null,
+439 verbose parsed url   pathname: '%3E=%203.1.5%20%3C4',
+439 verbose parsed url   path: '%3E=%203.1.5%20%3C4',
+439 verbose parsed url   href: '%3E=%203.1.5%20%3C4' }
+440 verbose addNamed [ 'htmlparser2', '>= 3.1.5 <4' ]
+441 verbose addNamed [ null, '>=3.1.5 <4.0.0-0' ]
+442 silly lockFile 0e2879d5-htmlparser2-3-1-5-4 htmlparser2@>= 3.1.5 <4
+443 verbose lock htmlparser2@>= 3.1.5 <4 /home/kunal15595/.npm/0e2879d5-htmlparser2-3-1-5-4.lock
+444 verbose cache add [ 'nwmatcher@~1.3.1', null ]
+445 verbose cache add name=undefined spec="nwmatcher@~1.3.1" args=["nwmatcher@~1.3.1",null]
+446 verbose parsed url { protocol: null,
+446 verbose parsed url   slashes: null,
+446 verbose parsed url   auth: null,
+446 verbose parsed url   host: null,
+446 verbose parsed url   port: null,
+446 verbose parsed url   hostname: null,
+446 verbose parsed url   hash: null,
+446 verbose parsed url   search: null,
+446 verbose parsed url   query: null,
+446 verbose parsed url   pathname: 'nwmatcher@~1.3.1',
+446 verbose parsed url   path: 'nwmatcher@~1.3.1',
+446 verbose parsed url   href: 'nwmatcher@~1.3.1' }
+447 verbose cache add name="nwmatcher" spec="~1.3.1" args=["nwmatcher","~1.3.1"]
+448 verbose parsed url { protocol: null,
+448 verbose parsed url   slashes: null,
+448 verbose parsed url   auth: null,
+448 verbose parsed url   host: null,
+448 verbose parsed url   port: null,
+448 verbose parsed url   hostname: null,
+448 verbose parsed url   hash: null,
+448 verbose parsed url   search: null,
+448 verbose parsed url   query: null,
+448 verbose parsed url   pathname: '~1.3.1',
+448 verbose parsed url   path: '~1.3.1',
+448 verbose parsed url   href: '~1.3.1' }
+449 verbose addNamed [ 'nwmatcher', '~1.3.1' ]
+450 verbose addNamed [ null, '>=1.3.1-0 <1.4.0-0' ]
+451 silly lockFile 315a8aad-nwmatcher-1-3-1 nwmatcher@~1.3.1
+452 verbose lock nwmatcher@~1.3.1 /home/kunal15595/.npm/315a8aad-nwmatcher-1-3-1.lock
+453 verbose cache add [ 'request@2.x', null ]
+454 verbose cache add name=undefined spec="request@2.x" args=["request@2.x",null]
+455 verbose parsed url { protocol: null,
+455 verbose parsed url   slashes: null,
+455 verbose parsed url   auth: null,
+455 verbose parsed url   host: null,
+455 verbose parsed url   port: null,
+455 verbose parsed url   hostname: null,
+455 verbose parsed url   hash: null,
+455 verbose parsed url   search: null,
+455 verbose parsed url   query: null,
+455 verbose parsed url   pathname: 'request@2.x',
+455 verbose parsed url   path: 'request@2.x',
+455 verbose parsed url   href: 'request@2.x' }
+456 verbose cache add name="request" spec="2.x" args=["request","2.x"]
+457 verbose parsed url { protocol: null,
+457 verbose parsed url   slashes: null,
+457 verbose parsed url   auth: null,
+457 verbose parsed url   host: null,
+457 verbose parsed url   port: null,
+457 verbose parsed url   hostname: null,
+457 verbose parsed url   hash: null,
+457 verbose parsed url   search: null,
+457 verbose parsed url   query: null,
+457 verbose parsed url   pathname: '2.x',
+457 verbose parsed url   path: '2.x',
+457 verbose parsed url   href: '2.x' }
+458 verbose addNamed [ 'request', '2.x' ]
+459 verbose addNamed [ null, '>=2.0.0-0 <3.0.0-0' ]
+460 silly lockFile c23ecae0-request-2-x request@2.x
+461 verbose lock request@2.x /home/kunal15595/.npm/c23ecae0-request-2-x.lock
+462 silly addNameRange { name: 'htmlparser2',
+462 silly addNameRange   range: '>=3.1.5 <4.0.0-0',
+462 silly addNameRange   hasData: false }
+463 verbose cache add [ 'xmlhttprequest@>=1.5.0', null ]
+464 verbose cache add name=undefined spec="xmlhttprequest@>=1.5.0" args=["xmlhttprequest@>=1.5.0",null]
+465 verbose parsed url { protocol: null,
+465 verbose parsed url   slashes: null,
+465 verbose parsed url   auth: null,
+465 verbose parsed url   host: null,
+465 verbose parsed url   port: null,
+465 verbose parsed url   hostname: null,
+465 verbose parsed url   hash: null,
+465 verbose parsed url   search: null,
+465 verbose parsed url   query: null,
+465 verbose parsed url   pathname: 'xmlhttprequest@%3E=1.5.0',
+465 verbose parsed url   path: 'xmlhttprequest@%3E=1.5.0',
+465 verbose parsed url   href: 'xmlhttprequest@%3E=1.5.0' }
+466 verbose cache add name="xmlhttprequest" spec=">=1.5.0" args=["xmlhttprequest",">=1.5.0"]
+467 verbose parsed url { protocol: null,
+467 verbose parsed url   slashes: null,
+467 verbose parsed url   auth: null,
+467 verbose parsed url   host: null,
+467 verbose parsed url   port: null,
+467 verbose parsed url   hostname: null,
+467 verbose parsed url   hash: null,
+467 verbose parsed url   search: null,
+467 verbose parsed url   query: null,
+467 verbose parsed url   pathname: '%3E=1.5.0',
+467 verbose parsed url   path: '%3E=1.5.0',
+467 verbose parsed url   href: '%3E=1.5.0' }
+468 verbose addNamed [ 'xmlhttprequest', '>=1.5.0' ]
+469 verbose addNamed [ null, '>=1.5.0' ]
+470 silly lockFile 7fa1418d-xmlhttprequest-1-5-0 xmlhttprequest@>=1.5.0
+471 verbose lock xmlhttprequest@>=1.5.0 /home/kunal15595/.npm/7fa1418d-xmlhttprequest-1-5-0.lock
+472 silly addNameRange { name: 'nwmatcher',
+472 silly addNameRange   range: '>=1.3.1-0 <1.4.0-0',
+472 silly addNameRange   hasData: false }
+473 verbose cache add [ 'cssom@~0.3.0', null ]
+474 verbose cache add name=undefined spec="cssom@~0.3.0" args=["cssom@~0.3.0",null]
+475 verbose parsed url { protocol: null,
+475 verbose parsed url   slashes: null,
+475 verbose parsed url   auth: null,
+475 verbose parsed url   host: null,
+475 verbose parsed url   port: null,
+475 verbose parsed url   hostname: null,
+475 verbose parsed url   hash: null,
+475 verbose parsed url   search: null,
+475 verbose parsed url   query: null,
+475 verbose parsed url   pathname: 'cssom@~0.3.0',
+475 verbose parsed url   path: 'cssom@~0.3.0',
+475 verbose parsed url   href: 'cssom@~0.3.0' }
+476 verbose cache add name="cssom" spec="~0.3.0" args=["cssom","~0.3.0"]
+477 verbose parsed url { protocol: null,
+477 verbose parsed url   slashes: null,
+477 verbose parsed url   auth: null,
+477 verbose parsed url   host: null,
+477 verbose parsed url   port: null,
+477 verbose parsed url   hostname: null,
+477 verbose parsed url   hash: null,
+477 verbose parsed url   search: null,
+477 verbose parsed url   query: null,
+477 verbose parsed url   pathname: '~0.3.0',
+477 verbose parsed url   path: '~0.3.0',
+477 verbose parsed url   href: '~0.3.0' }
+478 verbose addNamed [ 'cssom', '~0.3.0' ]
+479 verbose addNamed [ null, '>=0.3.0-0 <0.4.0-0' ]
+480 silly lockFile 7e27c00c-cssom-0-3-0 cssom@~0.3.0
+481 verbose lock cssom@~0.3.0 /home/kunal15595/.npm/7e27c00c-cssom-0-3-0.lock
+482 silly addNameRange { name: 'request', range: '>=2.0.0-0 <3.0.0-0', hasData: false }
+483 verbose cache add [ 'cssstyle@~0.2.9', null ]
+484 verbose cache add name=undefined spec="cssstyle@~0.2.9" args=["cssstyle@~0.2.9",null]
+485 verbose parsed url { protocol: null,
+485 verbose parsed url   slashes: null,
+485 verbose parsed url   auth: null,
+485 verbose parsed url   host: null,
+485 verbose parsed url   port: null,
+485 verbose parsed url   hostname: null,
+485 verbose parsed url   hash: null,
+485 verbose parsed url   search: null,
+485 verbose parsed url   query: null,
+485 verbose parsed url   pathname: 'cssstyle@~0.2.9',
+485 verbose parsed url   path: 'cssstyle@~0.2.9',
+485 verbose parsed url   href: 'cssstyle@~0.2.9' }
+486 verbose cache add name="cssstyle" spec="~0.2.9" args=["cssstyle","~0.2.9"]
+487 verbose parsed url { protocol: null,
+487 verbose parsed url   slashes: null,
+487 verbose parsed url   auth: null,
+487 verbose parsed url   host: null,
+487 verbose parsed url   port: null,
+487 verbose parsed url   hostname: null,
+487 verbose parsed url   hash: null,
+487 verbose parsed url   search: null,
+487 verbose parsed url   query: null,
+487 verbose parsed url   pathname: '~0.2.9',
+487 verbose parsed url   path: '~0.2.9',
+487 verbose parsed url   href: '~0.2.9' }
+488 verbose addNamed [ 'cssstyle', '~0.2.9' ]
+489 verbose addNamed [ null, '>=0.2.9-0 <0.3.0-0' ]
+490 silly lockFile 0fb56175-cssstyle-0-2-9 cssstyle@~0.2.9
+491 verbose lock cssstyle@~0.2.9 /home/kunal15595/.npm/0fb56175-cssstyle-0-2-9.lock
+492 silly addNameRange { name: 'xmlhttprequest', range: '>=1.5.0', hasData: false }
+493 verbose cache add [ 'contextify@~0.1.5', null ]
+494 verbose cache add name=undefined spec="contextify@~0.1.5" args=["contextify@~0.1.5",null]
+495 verbose parsed url { protocol: null,
+495 verbose parsed url   slashes: null,
+495 verbose parsed url   auth: null,
+495 verbose parsed url   host: null,
+495 verbose parsed url   port: null,
+495 verbose parsed url   hostname: null,
+495 verbose parsed url   hash: null,
+495 verbose parsed url   search: null,
+495 verbose parsed url   query: null,
+495 verbose parsed url   pathname: 'contextify@~0.1.5',
+495 verbose parsed url   path: 'contextify@~0.1.5',
+495 verbose parsed url   href: 'contextify@~0.1.5' }
+496 verbose cache add name="contextify" spec="~0.1.5" args=["contextify","~0.1.5"]
+497 verbose parsed url { protocol: null,
+497 verbose parsed url   slashes: null,
+497 verbose parsed url   auth: null,
+497 verbose parsed url   host: null,
+497 verbose parsed url   port: null,
+497 verbose parsed url   hostname: null,
+497 verbose parsed url   hash: null,
+497 verbose parsed url   search: null,
+497 verbose parsed url   query: null,
+497 verbose parsed url   pathname: '~0.1.5',
+497 verbose parsed url   path: '~0.1.5',
+497 verbose parsed url   href: '~0.1.5' }
+498 verbose addNamed [ 'contextify', '~0.1.5' ]
+499 verbose addNamed [ null, '>=0.1.5-0 <0.2.0-0' ]
+500 silly lockFile 39127fdc-contextify-0-1-5 contextify@~0.1.5
+501 verbose lock contextify@~0.1.5 /home/kunal15595/.npm/39127fdc-contextify-0-1-5.lock
+502 silly addNameRange { name: 'cssom', range: '>=0.3.0-0 <0.4.0-0', hasData: false }
+503 silly addNameRange { name: 'cssstyle', range: '>=0.2.9-0 <0.3.0-0', hasData: false }
+504 verbose url raw htmlparser2
+505 verbose url resolving [ 'https://registry.npmjs.org/', './htmlparser2' ]
+506 verbose url resolved https://registry.npmjs.org/htmlparser2
+507 info trying registry request attempt 1 at 03:20:44
+508 verbose etag "H09JA7KGYAP11UU3WIO7TFCB"
+509 http GET https://registry.npmjs.org/htmlparser2
+510 silly addNameRange { name: 'contextify',
+510 silly addNameRange   range: '>=0.1.5-0 <0.2.0-0',
+510 silly addNameRange   hasData: false }
+511 verbose url raw nwmatcher
+512 verbose url resolving [ 'https://registry.npmjs.org/', './nwmatcher' ]
+513 verbose url resolved https://registry.npmjs.org/nwmatcher
+514 info trying registry request attempt 1 at 03:20:44
+515 verbose etag "D4MSGVODX7DOY2YU4BVZRLYE1"
+516 http GET https://registry.npmjs.org/nwmatcher
+517 verbose url raw request
+518 verbose url resolving [ 'https://registry.npmjs.org/', './request' ]
+519 verbose url resolved https://registry.npmjs.org/request
+520 info trying registry request attempt 1 at 03:20:44
+521 verbose etag "1I7L5Z0R2U7XX1IIHFUJ6A3DZ"
+522 http GET https://registry.npmjs.org/request
+523 verbose url raw xmlhttprequest
+524 verbose url resolving [ 'https://registry.npmjs.org/', './xmlhttprequest' ]
+525 verbose url resolved https://registry.npmjs.org/xmlhttprequest
+526 info trying registry request attempt 1 at 03:20:44
+527 verbose etag "BYDY0NENJA86XMOQ3VHV439NC"
+528 http GET https://registry.npmjs.org/xmlhttprequest
+529 verbose url raw cssom
+530 verbose url resolving [ 'https://registry.npmjs.org/', './cssom' ]
+531 verbose url resolved https://registry.npmjs.org/cssom
+532 info trying registry request attempt 1 at 03:20:44
+533 verbose etag "7TUXRYV62WJY3BY8XJ9N9LC5P"
+534 http GET https://registry.npmjs.org/cssom
+535 verbose url raw cssstyle
+536 verbose url resolving [ 'https://registry.npmjs.org/', './cssstyle' ]
+537 verbose url resolved https://registry.npmjs.org/cssstyle
+538 info trying registry request attempt 1 at 03:20:44
+539 verbose etag "7ES04EH5B7JJ7BBGYSEE4HRK8"
+540 http GET https://registry.npmjs.org/cssstyle
+541 verbose url raw contextify
+542 verbose url resolving [ 'https://registry.npmjs.org/', './contextify' ]
+543 verbose url resolved https://registry.npmjs.org/contextify
+544 info trying registry request attempt 1 at 03:20:44
+545 verbose etag "533MUG4QQFQ1WNRGFBVFLRSEZ"
+546 http GET https://registry.npmjs.org/contextify
+547 info canvas@1.1.3 Failed to exec install script
+548 info /usr/lib/node_modules/canvas unbuild
+549 info preuninstall canvas@1.1.3
+550 info uninstall canvas@1.1.3
+551 verbose true,/usr/lib/node_modules,/usr/lib/node_modules unbuild canvas@1.1.3
+552 info postuninstall canvas@1.1.3
+553 error canvas@1.1.3 install: `node-gyp rebuild`
+553 error Exit status 7
+554 error Failed at the canvas@1.1.3 install script.
+554 error This is most likely a problem with the canvas package,
+554 error not with npm itself.
+554 error Tell the author that this fails on your system:
+554 error     node-gyp rebuild
+554 error You can get their info via:
+554 error     npm owner ls canvas
+554 error There is likely additional logging output above.
+555 error System Linux 3.13.0-24-generic
+556 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "canvas" "fabric"
+557 error cwd /home/kunal15595/Documents/node/tut_pdfjs
+558 error node -v v0.10.28
+559 error npm -v 1.4.9
+560 error code ELIFECYCLE
+561 verbose exit [ 1, true ]

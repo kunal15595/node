@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="fabric.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  </head>
+  <body>
+  	<button  style=" z-index: 0; display:block;" id="toggle">Toggle</button>
+  	<button  style=" z-index: 0; display:block;" id="done">Combine</button>
+  	<div style="position: relative;">
+		<canvas id="cc" width="300" height="300" style="border: 1px solid black; position: relative; left: 0; top: 0; z-index: 10;"></canvas>
+		<canvas id="c" width="300" height="300" style="border: 1px solid black; position: relative; left: 0; top: 0; z-index: 1; margin-top: -300px;"></canvas>
+		<canvas id="combine" width="300" height="300" style="border: 1px solid black; position: relative; left: 0; top: 0; z-index: 15; margin-top: -300px;"></canvas>
+
+  	</div>
+    
+    <!-- <canvas id="c" width="300" height="300" style="border:1px solid #ccc; position:fixed; top: 0px; 	"></canvas>
+    <canvas id="cc" width="300" height="300" style="border:1px solid #ccc; position:fixed; top: 0px; 	"></canvas> -->
+    <!-- <button id="toggle">Toggle</button> -->
+    <script>
+    	var canvas = new fabric.Canvas('c');
+    	var can = new fabric.Canvas('cc');
+    	var combine = new fabric.Canvas('combine');
+		(function() {
+
+
+		can.isDrawingMode = true;
+		})();
+		$('#toggle').click(function() {
+			if (can.isDrawingMode) {
+				can.isDrawingMode = false;
+			}else{
+				can.isDrawingMode = true;
+			}
+		});
+		$('#done').click(function() {
+			console.log(JSON.stringify(can));
+			console.log(can.toSVG());
+			var json = JSON.stringify(can);
+			combine.loadFromJSON(json);
+			combine.renderAll();
+		});
+    </script>
+    <script type="text/javascript" src="particles.js" ></script>
+    <script type="text/javascript"></script>
+  </body>
+</html>

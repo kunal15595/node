@@ -1,0 +1,53 @@
+/*---------------------------------------------------//
+// PaperPlane 1.0.0
+// link and file sharing web application
+// Andrew Lobos <andrew@lobos.me>
+// Benjamin Thomas <benjamin@thomasnetwork.net>
+// Alex Lagunas <alex@pennmanor.net>
+//---------------------------------------------------*/
+
+
+form{
+	margin:0;
+}
+
+#school-logo {
+	width:38px;
+	margin-top:6px;
+	margin-bottom:6px;
+}
+
+#content
+{
+	padding-top: 30px;
+}
+
+#submitArea
+{
+	margin-bottom: 20px;
+	overflow:hidden;
+}
+
+#urlSubmitForm
+{
+	text-align:center;
+}
+
+.nav-fix
+{
+	margin:auto;
+}
+
+.fileupload{
+	margin:0;
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom
+{
+	position: fixed;
+}
+
+.icon{
+	padding-left:10px;
+	padding-right:10px;
+}

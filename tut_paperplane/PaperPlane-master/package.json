@@ -23,7 +23,7 @@
 		"node-schedule": "0.1.13",
 		"cheerio": "0.15.0",
 		"express": "4.0.0",
-		"body-parser": "1.0.2",
+		"body-parser": "1.20.6",
 		"socket.io": "0.9.16", 
 		"async": "0.7.0",
 		"ejs": "1.0.0"
